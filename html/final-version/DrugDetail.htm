@@ -1,6 +1,4229 @@
-<?php include("include/_head_shiny.php");?>
-<?php readfile("include/_header_shiny.html");?>
-<main>
+<!DOCTYPE html>
+<html class=" js canvas canvastext geolocation crosswindowmessaging no-websqldatabase indexeddb hashchange historymanagement draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms no-csstransforms3d csstransitions  video audio localstorage sessionstorage webworkers applicationcache svg smil svgclippaths   fontface" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Lorem ipsum</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<!-- if (development) -->
+<link href="/css/style-shiny.less" type="text/css" rel="stylesheet/less"><style id="less:responsiveUI24-css-style-shiny" type="text/css">/*
+
+##Colors
+
+*/
+/* line 11, /css/shiny/base/_normalize.less */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+/* line 30, /css/shiny/base/_normalize.less */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+/* line 41, /css/shiny/base/_normalize.less */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+/* line 50, /css/shiny/base/_normalize.less */
+[hidden] {
+  display: none;
+}
+/* line 64, /css/shiny/base/_normalize.less */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+/* line 74, /css/shiny/base/_normalize.less */
+body {
+  margin: 0;
+}
+/* line 86, /css/shiny/base/_normalize.less */
+a:focus {
+  outline: thin dotted;
+}
+/* line 94, /css/shiny/base/_normalize.less */
+a:active,
+a:hover {
+  outline: 0;
+}
+/* line 108, /css/shiny/base/_normalize.less */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+/* line 117, /css/shiny/base/_normalize.less */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+/* line 125, /css/shiny/base/_normalize.less */
+b,
+strong {
+  font-weight: bold;
+}
+/* line 134, /css/shiny/base/_normalize.less */
+dfn {
+  font-style: italic;
+}
+/* line 142, /css/shiny/base/_normalize.less */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  color: #ccc;
+  background-color: #ccc;
+  margin-bottom: 20px;
+}
+/* line 155, /css/shiny/base/_normalize.less */
+mark {
+  background: #ff0;
+  color: #000;
+}
+/* line 164, /css/shiny/base/_normalize.less */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+/* line 176, /css/shiny/base/_normalize.less */
+pre {
+  white-space: pre-wrap;
+}
+/* line 184, /css/shiny/base/_normalize.less */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+/* line 192, /css/shiny/base/_normalize.less */
+small {
+  font-size: 80%;
+}
+/* line 200, /css/shiny/base/_normalize.less */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+/* line 208, /css/shiny/base/_normalize.less */
+sup {
+  top: -0.5em;
+}
+/* line 212, /css/shiny/base/_normalize.less */
+sub {
+  bottom: -0.25em;
+}
+/* line 224, /css/shiny/base/_normalize.less */
+img {
+  border: 0;
+}
+/* line 232, /css/shiny/base/_normalize.less */
+svg:not(:root) {
+  overflow: hidden;
+}
+/* line 244, /css/shiny/base/_normalize.less */
+figure {
+  margin: 0;
+}
+/* line 256, /css/shiny/base/_normalize.less */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+/* line 267, /css/shiny/base/_normalize.less */
+legend {
+  border: 0;
+  padding: 0;
+}
+/* line 278, /css/shiny/base/_normalize.less */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+/* line 292, /css/shiny/base/_normalize.less */
+button,
+input {
+  line-height: normal;
+}
+/* line 304, /css/shiny/base/_normalize.less */
+button,
+select {
+  text-transform: none;
+}
+/* line 317, /css/shiny/base/_normalize.less */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+/* line 329, /css/shiny/base/_normalize.less */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+/* line 339, /css/shiny/base/_normalize.less */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 351, /css/shiny/base/_normalize.less */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+/* line 363, /css/shiny/base/_normalize.less */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+/* line 372, /css/shiny/base/_normalize.less */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+/* line 383, /css/shiny/base/_normalize.less */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+/* line 396, /css/shiny/base/_normalize.less */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/*
+
+#Typography
+ 
+##Base
+
+Refer to _config.less for body font style.
+
+```
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices, risus facilisis vestibulum viverra, lectus leo pharetra tortor, sed congue nisl libero ut turpis. Integer consequat, purus non pharetra suscipit, metus lorem egestas urna, eu mattis est augue a justo. Vestibulum eget justo rhoncus, commodo magna id, egestas purus. In porta erat erat, nec dapibus neque vestibulum ullamcorper. Pellentesque dapibus, nibh eget aliquet maximus, magna mauris lacinia lorem, vel consectetur orci ipsum vel tellus. Vestibulum sodales bibendum ornare. Phasellus odio velit, malesuada non sollicitudin vitae, fringilla vel justo.</p>
+```
+
+*/
+/* line 14, /css/shiny/base/_typography.less */
+body {
+  font-family: Arial, Helvetica, sans_serif;
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+  background-color: #000000;
+}
+/* line 21, /css/shiny/base/_typography.less */
+::-moz-selection {
+  background: #003366;
+  color: #ffffff;
+  text-shadow: none;
+}
+/* line 26, /css/shiny/base/_typography.less */
+::selection {
+  background: #003366;
+  color: #ffffff;
+  text-shadow: none;
+}
+/*
+ 
+##Links
+
+```
+<a href="">Default Link</a>
+<a href="" class="white">Link white text</a>
+<a href="" class="gray">Link gray text</a>
+```
+
+*/
+/* line 45, /css/shiny/base/_typography.less */
+a:link {
+  color: #069bff;
+  text-decoration: none;
+}
+/* line 49, /css/shiny/base/_typography.less */
+a:visited {
+  color: #069bff;
+  text-decoration: none;
+}
+/* line 53, /css/shiny/base/_typography.less */
+a:hover,
+a:focus {
+  color: #005085;
+  text-decoration: underline;
+}
+/* line 58, /css/shiny/base/_typography.less */
+a:hover,
+a:active {
+  outline: 0;
+}
+/* line 64, /css/shiny/base/_typography.less */
+.white:link {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 68, /css/shiny/base/_typography.less */
+.white:visited {
+  color: #cccccc;
+  text-decoration: none;
+}
+/* line 72, /css/shiny/base/_typography.less */
+.white:hover,
+.white:focus {
+  color: #bfbfbf;
+  text-decoration: underline;
+}
+/* line 78, /css/shiny/base/_typography.less */
+.gray {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 81, /css/shiny/base/_typography.less */
+.gray:visited {
+  color: #666666;
+  text-decoration: none;
+}
+/* line 85, /css/shiny/base/_typography.less */
+.gray:hover,
+.gray:focus {
+  color: #005085;
+  text-decoration: underline;
+}
+/*
+ 
+##Message options
+
+```
+<h2 class="mute"><code>mute</code> is used to suppress headings or other html elements to base font style</h2>
+<p class="text-warning"><code>text-warning</code> indicates caution should be taken with this action</p>
+<p class="text-info"><code>text-info</code> is for informational alert messages</p>
+<p class="text-success"><code>text-success</code> indicates a successful or positive action</p>
+```
+
+*/
+/* line 108, /css/shiny/base/_typography.less */
+.mute {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #666666;
+}
+/* line 114, /css/shiny/base/_typography.less */
+.text-warning {
+  color: #ff6600;
+}
+/* line 117, /css/shiny/base/_typography.less */
+.text-alert {
+  color: #c4380d;
+}
+/* line 119, /css/shiny/base/_typography.less */
+.text-alert a {
+  color: #c4380d !important;
+  text-decoration: underline !important;
+}
+/* line 124, /css/shiny/base/_typography.less */
+.text-error {
+  color: #dd4b39;
+}
+/* line 127, /css/shiny/base/_typography.less */
+.text-info {
+  color: #0066cc;
+}
+/* line 130, /css/shiny/base/_typography.less */
+.text-success {
+  color: #008000;
+}
+/* line 133, /css/shiny/base/_typography.less */
+.back-to-top {
+  text-align: right;
+}
+/*
+ 
+##Headings
+
+```
+<h1>h1 heading</h1>
+<h2>h2 heading</h2>
+<h3>h3 heading</h3>
+<h4>h4 heading</h4>
+<h5>h5 heading</h5>
+<h6>h6 heading</h6>
+```
+
+*/
+/* line 152, /css/shiny/base/_typography.less */
+h1 {
+  font-family: Arial, Helvetica, sans_serif;
+  color: #666666;
+}
+/* line 153, /css/shiny/base/_typography.less */
+h2 {
+  font-family: Arial, Helvetica, sans_serif;
+  color: #333333;
+}
+/* line 154, /css/shiny/base/_typography.less */
+h3 {
+  font-family: Arial, Helvetica, sans_serif;
+  color: #333333;
+}
+/* line 155, /css/shiny/base/_typography.less */
+h4 {
+  font-family: Arial, Helvetica, sans_serif;
+  color: #333333;
+}
+/* line 156, /css/shiny/base/_typography.less */
+h5 {
+  font-family: Arial, Helvetica, sans_serif;
+  color: #333333;
+}
+/* line 157, /css/shiny/base/_typography.less */
+h6 {
+  font-family: Arial, Helvetica, sans_serif;
+  color: #333333;
+}
+/*
+ 
+##Headings - Alternative style
+
+```
+<h1 class="alt">h1 heading</h1>
+<h2 class="alt">h2 heading</h2>
+<h3 class="alt">h3 heading</h3>
+<h4 class="alt">h4 heading</h4>
+<h5 class="alt">h5 heading</h5>
+<h6 class="alt">h6 heading</h6>
+```
+
+*/
+/* line 173, /css/shiny/base/_typography.less */
+h1.alt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+/* line 174, /css/shiny/base/_typography.less */
+h2.alt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+/* line 175, /css/shiny/base/_typography.less */
+h3.alt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+/* line 176, /css/shiny/base/_typography.less */
+h4.alt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+/* line 177, /css/shiny/base/_typography.less */
+h5.alt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+/* line 178, /css/shiny/base/_typography.less */
+h6.alt {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #333333;
+}
+/* line 180, /css/shiny/base/_typography.less */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 21px;
+  margin: 0 0 5.25px;
+}
+/*
+ 
+##small in headings
+
+```
+<h1>h1 heading <small>iamsmall</small></h1>
+<h1>h1 heading <small class="block">iamsmall</small></h1>
+<h2>h2 heading <small>iamsmall</small></h2>
+<h2>h2 heading <small class="block">iamsmall</small></h2>
+<h3>h3 heading <small>iamsmall</small></h3>
+<h3>h3 heading <small class="block">iamsmall</small></h3>
+```
+
+*/
+/* line 203, /css/shiny/base/_typography.less */
+.small-in-heading {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  .small-in-heading {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+.small-in-heading.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 217, /css/shiny/base/_typography.less */
+h1,
+.mimic-h1 {
+  font-size: 28px;
+  line-height: 31.5px;
+  font-weight: bold;
+}
+/* line 222, /css/shiny/base/_typography.less */
+h1 small,
+.mimic-h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  h1 small,
+  .mimic-h1 small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+h1 small.block,
+.mimic-h1 small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 224, /css/shiny/base/_typography.less */
+h1 small span,
+.mimic-h1 small span {
+  font-weight: bold;
+}
+/* line 227, /css/shiny/base/_typography.less */
+h1 small.match-header,
+.mimic-h1 small.match-header {
+  font-size: 28px;
+  line-height: 31.5px;
+}
+/* line 233, /css/shiny/base/_typography.less */
+h2,
+.mimic-h2 {
+  font-size: 21px;
+  line-height: 26.25px;
+  font-weight: bold;
+}
+/* line 238, /css/shiny/base/_typography.less */
+h2 small,
+.mimic-h2 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  h2 small,
+  .mimic-h2 small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+h2 small.block,
+.mimic-h2 small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 242, /css/shiny/base/_typography.less */
+h3,
+.mimic-h3 {
+  font-size: 15.75px;
+  line-height: 22.05px;
+  font-weight: bold;
+}
+/* line 247, /css/shiny/base/_typography.less */
+h3 small,
+.mimic-h3 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  h3 small,
+  .mimic-h3 small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+h3 small.block,
+.mimic-h3 small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 251, /css/shiny/base/_typography.less */
+h4,
+.mimic-h4 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+}
+/* line 256, /css/shiny/base/_typography.less */
+h4 small,
+.mimic-h4 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  h4 small,
+  .mimic-h4 small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+h4 small.block,
+.mimic-h4 small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 260, /css/shiny/base/_typography.less */
+h5,
+.mimic-h5 {
+  font-size: 11.9px;
+  line-height: 15.75px;
+  font-weight: bold;
+}
+/* line 266, /css/shiny/base/_typography.less */
+h6,
+.mimic-h6 {
+  font-size: 11.9px;
+  line-height: 15.75px;
+  font-weight: normal;
+}
+/*
+ 
+##small in headings
+
+```
+<h1>h1 heading <small>iamsmall</small></h1>
+<h1>h1 heading <small class="block">iamsmall</small></h1>
+<h2>h2 heading <small>iamsmall</small></h2>
+<h2>h2 heading <small class="block">iamsmall</small></h2>
+<h3>h3 heading <small>iamsmall</small></h3>
+<h3>h3 heading <small class="block">iamsmall</small></h3>
+```
+
+*/
+/* line 286, /css/shiny/base/_typography.less */
+.bordered-bottom {
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 5px;
+}
+/* line 290, /css/shiny/base/_typography.less */
+.base-font-size {
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+/* line 296, /css/shiny/base/_typography.less */
+.base-font-size-smaller {
+  font-size: 12.6px;
+  line-height: 17.849999999999998px;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+/* line 302, /css/shiny/base/_typography.less */
+.page-head {
+  margin-bottom: 21px;
+}
+/* line 305, /css/shiny/base/_typography.less */
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: #cccccc;
+  color: #cccccc;
+  border: none;
+  margin: 0 0 21px;
+}
+/* line 313, /css/shiny/base/_typography.less */
+section,
+article,
+hgroup,
+nav,
+figure,
+aside,
+table,
+form,
+pre,
+p,
+dl,
+ul,
+ol {
+  margin: 0 0 21px;
+}
+/* line 328, /css/shiny/base/_typography.less */
+.footnote li:target {
+  background-color: #ddedfd;
+}
+/* line 331, /css/shiny/base/_typography.less */
+ul,
+ol {
+  padding: 0;
+  margin-left: 25px;
+}
+/* line 336, /css/shiny/base/_typography.less */
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin-bottom: 0;
+}
+/* line 342, /css/shiny/base/_typography.less */
+.plain {
+  margin-left: 0;
+  list-style: none;
+}
+/* line 345, /css/shiny/base/_typography.less */
+.plain .plain {
+  margin-left: 25px;
+  list-style: none;
+}
+/* line 350, /css/shiny/base/_typography.less */
+.inside {
+  margin-left: 0;
+  list-style-position: inside;
+}
+/* line 354, /css/shiny/base/_typography.less */
+.inline {
+  margin-left: 0;
+  list-style: none;
+}
+/* line 357, /css/shiny/base/_typography.less */
+.inline > li {
+  display: inline-block;
+  *display: inline;
+  padding-right: 15px;
+  *zoom: 1;
+  line-height: 14px;
+  margin: 4px 0;
+}
+/* line 364, /css/shiny/base/_typography.less */
+.inline > li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+/* line 371, /css/shiny/base/_typography.less */
+.dividers > li {
+  border-right: 1px solid #ccc;
+  padding-right: 12px;
+  margin-right: 8px;
+}
+/* line 375, /css/shiny/base/_typography.less */
+.dividers > li:last-child {
+  padding-right: 0;
+  margin-right: 0;
+  border-right: 0;
+}
+/* line 383, /css/shiny/base/_typography.less */
+.plain-2-column-list {
+  margin-left: 0;
+  list-style: none;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 2;
+  -webkit-column-gap: 20px;
+}
+@media screen and (max-width: 650px) {
+  /* line 390, /css/shiny/base/_typography.less */
+  .plain-2-column-list {
+    -moz-column-count: 1;
+    -moz-column-gap: 0;
+    -webkit-column-count: 1;
+    -webkit-column-gap: 0;
+  }
+}
+/* line 400, /css/shiny/base/_typography.less */
+.margin-bottom-onehalf-li > li {
+  margin-bottom: 31.5px;
+}
+/* line 405, /css/shiny/base/_typography.less */
+.margin-bottom-quad-li > li {
+  margin-bottom: 21px;
+}
+/* line 410, /css/shiny/base/_typography.less */
+.margin-bottom-double-li > li {
+  margin-bottom: 10.5px;
+}
+/* line 415, /css/shiny/base/_typography.less */
+.margin-bottom-single-li > li {
+  margin-bottom: 5.25px;
+}
+/* line 420, /css/shiny/base/_typography.less */
+dl > dt {
+  font-weight: bold;
+  margin-bottom: 2.625px;
+}
+/* line 424, /css/shiny/base/_typography.less */
+dl dd {
+  margin: 0 0 2.625px 25px;
+}
+/* line 428, /css/shiny/base/_typography.less */
+dl.alt > dt {
+  margin: 21px 0 2.625px;
+}
+/* line 430, /css/shiny/base/_typography.less */
+dl.alt > dt:first-child {
+  margin-top: 0;
+}
+/* line 434, /css/shiny/base/_typography.less */
+dl.alt > dd {
+  margin: 0 0 2.625px;
+}
+/* line 439, /css/shiny/base/_typography.less */
+dl.inline dt {
+  font-weight: bold;
+  display: inline;
+  margin: 0 5px 0 0;
+  float: left;
+  clear: left;
+}
+/* line 446, /css/shiny/base/_typography.less */
+dl.inline dd {
+  margin: 0 0 5.25px;
+  clear: right;
+}
+/* line 450, /css/shiny/base/_typography.less */
+blockquote {
+  margin: 0 0 0 25px;
+}
+/* line 453, /css/shiny/base/_typography.less */
+blockquote.plain {
+  margin: 0;
+}
+/* line 456, /css/shiny/base/_typography.less */
+pre.prenowrap {
+  white-space: pre;
+}
+/* line 459, /css/shiny/base/_typography.less */
+abbr {
+  cursor: help;
+}
+/* line 462, /css/shiny/base/_typography.less */
+.margin-bottom-single {
+  margin-bottom: 5.25px;
+}
+/* line 463, /css/shiny/base/_typography.less */
+.margin-bottom-double {
+  margin-bottom: 10.5px;
+}
+/* line 464, /css/shiny/base/_typography.less */
+.margin-bottom-triple {
+  margin-bottom: 15.75px;
+}
+/* line 465, /css/shiny/base/_typography.less */
+.margin-bottom-quad {
+  margin-bottom: 21px;
+}
+/* line 466, /css/shiny/base/_typography.less */
+.margin-bottom-onehalf {
+  margin-bottom: 31.5px;
+}
+/* line 467, /css/shiny/base/_typography.less */
+.margin-bottom-half {
+  margin-bottom: 2.625px;
+}
+/* line 468, /css/shiny/base/_typography.less */
+.margin-bottom-none {
+  margin-bottom: 0 !important;
+}
+/* line 476, /css/shiny/base/_typography.less */
+figure .default img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 479, /css/shiny/base/_typography.less */
+figure .default figcaption {
+  margin-top: 5px;
+  color: #999999;
+  caption-side: bottom;
+}
+/* line 486, /css/shiny/base/_typography.less */
+figure.right-align {
+  float: right;
+  margin: 0 0 15px 15px;
+}
+/* line 476, /css/shiny/base/_typography.less */
+figure.right-align img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 479, /css/shiny/base/_typography.less */
+figure.right-align figcaption {
+  margin-top: 5px;
+  color: #999999;
+  caption-side: bottom;
+}
+/* line 491, /css/shiny/base/_typography.less */
+figure.center-align {
+  float: none;
+  margin: 0 auto 15px;
+}
+/* line 476, /css/shiny/base/_typography.less */
+figure.center-align img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 479, /css/shiny/base/_typography.less */
+figure.center-align figcaption {
+  margin-top: 5px;
+  color: #999999;
+  caption-side: bottom;
+}
+/* line 495, /css/shiny/base/_typography.less */
+figure.center-align img {
+  margin: 0 auto;
+}
+/* line 499, /css/shiny/base/_typography.less */
+figure.left-align {
+  float: left;
+  margin: 0 15px 15px 0;
+}
+/* line 476, /css/shiny/base/_typography.less */
+figure.left-align img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 479, /css/shiny/base/_typography.less */
+figure.left-align figcaption {
+  margin-top: 5px;
+  color: #999999;
+  caption-side: bottom;
+}
+/* line 504, /css/shiny/base/_typography.less */
+figure.width-30 {
+  width: 30%;
+}
+/* line 507, /css/shiny/base/_typography.less */
+figure.width-40 {
+  width: 40%;
+}
+/* line 510, /css/shiny/base/_typography.less */
+figure.width-50 {
+  width: 50%;
+}
+/* line 513, /css/shiny/base/_typography.less */
+figure.width-60 {
+  width: 60%;
+}
+/* line 516, /css/shiny/base/_typography.less */
+figure.width-70 {
+  width: 70%;
+}
+/* line 520, /css/shiny/base/_typography.less */
+.banner-with-caption a {
+  text-decoration: none;
+}
+/* line 523, /css/shiny/base/_typography.less */
+.banner-with-caption img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 526, /css/shiny/base/_typography.less */
+.banner-with-caption figcaption {
+  color: #888888;
+  margin: 3px 0 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: right;
+}
+/* line 5, /css/shiny/base/_layouts.less */
+.container {
+  width: 1220px;
+  background-color: transparent;
+  margin: 0 auto;
+  clear: both;
+}
+/* line 11, /css/shiny/base/_layouts.less */
+.branding {
+  display: none;
+  position: absolute;
+  top: -50px;
+}
+/* line 18, /css/shiny/base/_layouts.less */
+.wrapper {
+  width: 100%;
+  clear: both;
+}
+/* line 21, /css/shiny/base/_layouts.less */
+.wrapper.body {
+  background-color: #ffffff;
+  margin: 0;
+  padding-bottom: 30px;
+}
+/* line 27, /css/shiny/base/_layouts.less */
+.content {
+  width: 1220px;
+  margin: 0 auto;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  padding: 0 1.694915254237288%;
+}
+/* line 33, /css/shiny/base/_layouts.less */
+.content.body {
+  background-color: #ffffff;
+  margin: 0;
+}
+/* line 40, /css/shiny/base/_layouts.less */
+.table-row {
+  margin: 0;
+  padding: 0;
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+/* line 46, /css/shiny/base/_layouts.less */
+.table-row .table-cell {
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+/* line 55, /css/shiny/base/_layouts.less */
+.image-box .image-box-image {
+  background-color: #efefef;
+  margin-bottom: 21px;
+  margin-bottom: 0 !important;
+}
+/* line 58, /css/shiny/base/_layouts.less */
+.image-box .image-box-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 62, /css/shiny/base/_layouts.less */
+.image-box .image-box-content {
+  background-color: #efefef;
+  margin-bottom: 21px;
+}
+/* line 68, /css/shiny/base/_layouts.less */
+.thumb-list {
+  padding: 0;
+  margin-left: 0;
+  list-style: none;
+}
+/* line 72, /css/shiny/base/_layouts.less */
+.thumb-list > li {
+  clear: both;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+/* line 77, /css/shiny/base/_layouts.less */
+.thumb-list > li img {
+  height: auto;
+  float: left;
+  display: block;
+  margin-bottom: 21px;
+  width: 30%;
+}
+/* line 84, /css/shiny/base/_layouts.less */
+.thumb-list > li > .info {
+  padding-left: 33%;
+}
+/* line 89, /css/shiny/base/_layouts.less */
+.thumb-list.thumb-list-width-20 > li img {
+  width: 20%;
+}
+/* line 92, /css/shiny/base/_layouts.less */
+.thumb-list.thumb-list-width-20 > li > .info {
+  padding-left: 22%;
+}
+/* line 96, /css/shiny/base/_layouts.less */
+.thumb-list-with-gallery {
+  padding: 0;
+  margin-left: 0;
+  list-style: none;
+}
+/* line 100, /css/shiny/base/_layouts.less */
+.thumb-list-with-gallery > li {
+  clear: both;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 21px;
+}
+/* line 105, /css/shiny/base/_layouts.less */
+.thumb-list-with-gallery > li img {
+  height: auto;
+  float: left;
+  display: block;
+  margin-bottom: 21px;
+  width: 30%;
+}
+/* line 112, /css/shiny/base/_layouts.less */
+.thumb-list-with-gallery > li > .info {
+  padding-left: 33%;
+}
+/* line 124, /css/shiny/base/_layouts.less */
+.gallery1 {
+  clear: both;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 134, /css/shiny/base/_layouts.less */
+.gallery1 > li {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin-left: 1.694915254237288%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+/* line 144, /css/shiny/base/_layouts.less */
+.gallery1 img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 152, /css/shiny/base/_layouts.less */
+.gallery2 {
+  clear: both;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 134, /css/shiny/base/_layouts.less */
+.gallery2 > li {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin-left: 1.694915254237288%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+/* line 144, /css/shiny/base/_layouts.less */
+.gallery2 img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 154, /css/shiny/base/_layouts.less */
+.gallery2 > li {
+  width: 49.152542372881356%;
+  margin-left: 1.694915254237288%;
+}
+/* line 157, /css/shiny/base/_layouts.less */
+.gallery2 > li:nth-child(2n+1) {
+  margin-left: 0;
+}
+/* line 161, /css/shiny/base/_layouts.less */
+.gallery3 {
+  clear: both;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 134, /css/shiny/base/_layouts.less */
+.gallery3 > li {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin-left: 1.694915254237288%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+/* line 144, /css/shiny/base/_layouts.less */
+.gallery3 img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 163, /css/shiny/base/_layouts.less */
+.gallery3 > li {
+  width: 32.20338983050847%;
+  margin-left: 1.694915254237288%;
+}
+/* line 166, /css/shiny/base/_layouts.less */
+.gallery3 > li:nth-child(3n+1) {
+  margin-left: 0;
+}
+/* line 170, /css/shiny/base/_layouts.less */
+.gallery4 {
+  clear: both;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 0px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* line 134, /css/shiny/base/_layouts.less */
+.gallery4 > li {
+  padding: 0;
+  list-style: none;
+  width: 100%;
+  margin-left: 1.694915254237288%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 14px;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+/* line 144, /css/shiny/base/_layouts.less */
+.gallery4 img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  display: block;
+  margin-bottom: 5px;
+}
+/* line 172, /css/shiny/base/_layouts.less */
+.gallery4 > li {
+  width: 23.728813559322035%;
+  margin-left: 1.694915254237288%;
+}
+/* line 175, /css/shiny/base/_layouts.less */
+.gallery4 > li:nth-child(4n+1) {
+  margin-left: 0;
+}
+@media screen and (max-width: 480px) {
+  /* line 179, /css/shiny/base/_layouts.less */
+  .gallery4 > li {
+    width: 32.20338983050847%;
+    margin-left: 1.694915254237288%;
+  }
+  /* line 182, /css/shiny/base/_layouts.less */
+  .gallery4 > li:nth-child(4n+1) {
+    margin-left: 1.694915254237288%;
+  }
+  /* line 185, /css/shiny/base/_layouts.less */
+  .gallery4 > li:nth-child(3n+1) {
+    margin-left: 0;
+  }
+}
+/* line 191, /css/shiny/base/_layouts.less */
+.row {
+  clear: both;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 195, /css/shiny/base/_layouts.less */
+.row .span1,
+.row .span2,
+.row .span3,
+.row .span4,
+.row .span5,
+.row .span6,
+.row .span7,
+.row .span8,
+.row .span9,
+.row .span10,
+.row .span11,
+.row .span12,
+.row .span13,
+.row .span14,
+.row .span15,
+.row .span16,
+.row .span17,
+.row .span18,
+.row .span19,
+.row .span20,
+.row .span21,
+.row .span22,
+.row .span23,
+.row .span24 {
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+}
+/* line 222, /css/shiny/base/_layouts.less */
+.row > .span1 {
+  width: 2.5423728813559325%;
+  margin-left: 1.694915254237288%;
+}
+/* line 225, /css/shiny/base/_layouts.less */
+.row > .span2 {
+  width: 6.779661016949152%;
+  margin-left: 1.694915254237288%;
+}
+/* line 228, /css/shiny/base/_layouts.less */
+.row > .span3 {
+  width: 11.016949152542372%;
+  margin-left: 1.694915254237288%;
+}
+/* line 231, /css/shiny/base/_layouts.less */
+.row > .span4 {
+  width: 15.254237288135593%;
+  margin-left: 1.694915254237288%;
+}
+/* line 234, /css/shiny/base/_layouts.less */
+.row > .span5 {
+  width: 19.491525423728813%;
+  margin-left: 1.694915254237288%;
+}
+/* line 237, /css/shiny/base/_layouts.less */
+.row > .span6 {
+  width: 23.728813559322035%;
+  margin-left: 1.694915254237288%;
+}
+/* line 240, /css/shiny/base/_layouts.less */
+.row > .span7 {
+  width: 27.966101694915253%;
+  margin-left: 1.694915254237288%;
+}
+/* line 243, /css/shiny/base/_layouts.less */
+.row > .span8 {
+  width: 32.20338983050847%;
+  margin-left: 1.694915254237288%;
+}
+/* line 246, /css/shiny/base/_layouts.less */
+.row > .span9 {
+  width: 36.440677966101696%;
+  margin-left: 1.694915254237288%;
+}
+/* line 249, /css/shiny/base/_layouts.less */
+.row > .span10 {
+  width: 40.67796610169492%;
+  margin-left: 1.694915254237288%;
+}
+/* line 252, /css/shiny/base/_layouts.less */
+.row > .span11 {
+  width: 44.91525423728814%;
+  margin-left: 1.694915254237288%;
+}
+/* line 255, /css/shiny/base/_layouts.less */
+.row > .span12 {
+  width: 49.152542372881356%;
+  margin-left: 1.694915254237288%;
+}
+/* line 257, /css/shiny/base/_layouts.less */
+.row > .span12 .span6 {
+  width: 48.275862068965516%;
+  margin-left: 3.4482758620689653%;
+}
+/* line 260, /css/shiny/base/_layouts.less */
+.row > .span12 .span4 {
+  width: 31.03448275862069%;
+  margin-left: 3.4482758620689653%;
+}
+/* line 264, /css/shiny/base/_layouts.less */
+.row > .span12 .gallery3 > li {
+  width: 31.03448275862069%;
+  margin-left: 3.4482758620689653%;
+}
+/* line 267, /css/shiny/base/_layouts.less */
+.row > .span12 .gallery3 > li:nth-child(3n+1) {
+  margin-left: 0;
+}
+/* line 272, /css/shiny/base/_layouts.less */
+.row > .span13 {
+  width: 53.38983050847458%;
+  margin-left: 1.694915254237288%;
+}
+/* line 275, /css/shiny/base/_layouts.less */
+.row > .span14 {
+  width: 57.6271186440678%;
+  margin-left: 1.694915254237288%;
+}
+/* line 278, /css/shiny/base/_layouts.less */
+.row > .span15 {
+  width: 61.86440677966102%;
+  margin-left: 1.694915254237288%;
+}
+/* line 281, /css/shiny/base/_layouts.less */
+.row > .span16 {
+  width: 66.10169491525424%;
+  margin-left: 1.694915254237288%;
+}
+/* line 284, /css/shiny/base/_layouts.less */
+.row > .span17 {
+  width: 70.33898305084746%;
+  margin-left: 1.694915254237288%;
+}
+/* line 287, /css/shiny/base/_layouts.less */
+.row > .span18 {
+  width: 74.57627118644068%;
+  margin-left: 1.694915254237288%;
+}
+/* line 289, /css/shiny/base/_layouts.less */
+.row > .span18 .span6 {
+  width: 31.818181818181817%;
+  margin-left: 2.272727272727273%;
+}
+/* line 292, /css/shiny/base/_layouts.less */
+.row > .span18 .span9 {
+  width: 48.86363636363637%;
+  margin-left: 2.272727272727273%;
+}
+/* line 295, /css/shiny/base/_layouts.less */
+.row > .span18 .span12 {
+  width: 65.9090909090909%;
+  margin-left: 2.272727272727273%;
+}
+/* line 299, /css/shiny/base/_layouts.less */
+.row > .span19 {
+  width: 78.8135593220339%;
+  margin-left: 1.694915254237288%;
+}
+/* line 301, /css/shiny/base/_layouts.less */
+.row > .span19 .span6 {
+  width: 30.107526881720432%;
+  margin-left: 2.1505376344086025%;
+}
+/* line 304, /css/shiny/base/_layouts.less */
+.row > .span19 .span13 {
+  width: 67.74193548387096%;
+  margin-left: 2.1505376344086025%;
+}
+/* line 308, /css/shiny/base/_layouts.less */
+.row > .span20 {
+  width: 83.05084745762711%;
+  margin-left: 1.694915254237288%;
+}
+/* line 311, /css/shiny/base/_layouts.less */
+.row > .span21 {
+  width: 87.28813559322035%;
+  margin-left: 1.694915254237288%;
+}
+/* line 314, /css/shiny/base/_layouts.less */
+.row > .span22 {
+  width: 91.52542372881356%;
+  margin-left: 1.694915254237288%;
+}
+/* line 317, /css/shiny/base/_layouts.less */
+.row > .span23 {
+  width: 95.76271186440678%;
+  margin-left: 1.694915254237288%;
+}
+/* line 320, /css/shiny/base/_layouts.less */
+.row > .span24 {
+  width: 100%;
+  margin-left: 1.694915254237288%;
+  float: none;
+}
+/* line 324, /css/shiny/base/_layouts.less */
+.row .colleft {
+  float: left;
+  margin-left: 0 !important;
+}
+/* line 328, /css/shiny/base/_layouts.less */
+.row .colright {
+  float: right;
+}
+/* line 331, /css/shiny/base/_layouts.less */
+.row .span1:first-child,
+.row .span2:first-child,
+.row .span3:first-child,
+.row .span4:first-child,
+.row .span5:first-child,
+.row .span6:first-child,
+.row .span7:first-child,
+.row .span8:first-child,
+.row .span9:first-child,
+.row .span10:first-child,
+.row .span11:first-child,
+.row .span12:first-child,
+.row .span13:first-child,
+.row .span14:first-child,
+.row .span15:first-child,
+.row .span16:first-child,
+.row .span17:first-child,
+.row .span18:first-child,
+.row .span19:first-child,
+.row .span20:first-child,
+.row .span21:first-child,
+.row .span22:first-child,
+.row .span23:first-child,
+.row .span24:first-child {
+  margin-left: 0;
+}
+/* line 362, /css/shiny/base/_layouts.less */
+.clear {
+  height: 0;
+  clear: both;
+}
+/* line 366, /css/shiny/base/_layouts.less */
+.clear-block {
+  clear: both;
+}
+/* line 369, /css/shiny/base/_layouts.less */
+.clear-share {
+  clear: both;
+  height: 10px;
+}
+/* line 373, /css/shiny/base/_layouts.less */
+.clear-share2 {
+  clear: both;
+  height: 20px;
+}
+@media screen and (max-width: 1220px) {
+  /* line 382, /css/shiny/base/_layouts.less */
+  .container,
+  .content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 810px) {
+  
+}
+@media screen and (max-width: 650px) {
+  /* line 393, /css/shiny/base/_layouts.less */
+  .row.responsive01 > .span12,
+  .row.responsive01 > .span18,
+  .row.responsive01 > .span6,
+  .row.responsive01 > .span19,
+  .row.responsive01 > .span5 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  /* line 405, /css/shiny/base/_layouts.less */
+  .responsive-gallery3-thumb-list-span24 .gallery3 > li {
+    width: 48.275862068965516%;
+    margin-left: 3.4482758620689653%;
+  }
+  /* line 408, /css/shiny/base/_layouts.less */
+  .responsive-gallery3-thumb-list-span24 .gallery3 > li:nth-child(3n+1) {
+    margin-left: 3.4482758620689653%;
+  }
+  /* line 411, /css/shiny/base/_layouts.less */
+  .responsive-gallery3-thumb-list-span24 .gallery3 > li:nth-child(2n+1) {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 418, /css/shiny/base/_layouts.less */
+  .image-box {
+    margin: 0 0 21px !important;
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  /* line 424, /css/shiny/base/_layouts.less */
+  .image-box .image-box-image,
+  .image-box .image-box-content {
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+  }
+  /* line 430, /css/shiny/base/_layouts.less */
+  .image-box .image-box-image {
+    padding: 1.4406779661016949% 1.694915254237288% 0.5084745762711864% 1.694915254237288%;
+    width: 35%;
+  }
+  /* line 434, /css/shiny/base/_layouts.less */
+  .image-box .image-box-content {
+    width: 65%;
+  }
+  /* line 437, /css/shiny/base/_layouts.less */
+  .thumb-list > li img,
+  .thumb-list.thumb-list-width-20 > li img {
+    width: 30%;
+  }
+  /* line 441, /css/shiny/base/_layouts.less */
+  .thumb-list > li > .info,
+  .thumb-list.thumb-list-width-20 > li > .info {
+    padding-left: 33%;
+  }
+  /* line 445, /css/shiny/base/_layouts.less */
+  .gallery2.thumb-list > li {
+    display: block;
+    width: auto;
+    margin-left: 0;
+  }
+  /* line 452, /css/shiny/base/_layouts.less */
+  .responsive-gallery3-thumb-list-span24 .gallery3 > li {
+    width: 100%;
+    margin-left: 3.4482758620689653%;
+  }
+  /* line 455, /css/shiny/base/_layouts.less */
+  .responsive-gallery3-thumb-list-span24 .gallery3 > li:nth-child(2n+1) {
+    margin-left: 3.4482758620689653%;
+  }
+  /* line 458, /css/shiny/base/_layouts.less */
+  .responsive-gallery3-thumb-list-span24 .gallery3 > li:nth-child(1n+1) {
+    margin-left: 0;
+  }
+  /* line 465, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span12 .span6,
+  .row.responsive01 .span12 .span4 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  /* line 472, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span12 .gallery3 > li {
+    width: 48.275862068965516%;
+    margin-left: 3.4482758620689653%;
+  }
+  /* line 475, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span12 .gallery3 > li:nth-child(3n+1) {
+    margin-left: 3.4482758620689653%;
+  }
+  /* line 478, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span12 .gallery3 > li:nth-child(2n+1) {
+    margin-left: 0;
+  }
+  /* line 483, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span8 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  /* line 489, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span18 .span6,
+  .row.responsive01 .span18 .span12,
+  .row.responsive01 .span18 .span9 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  /* line 498, /css/shiny/base/_layouts.less */
+  .row.responsive01 .span19 .span6,
+  .row.responsive01 .span19 .span13 {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+}
+@media print {
+  
+}
+/*
+
+#Table
+ 
+##No style
+
+```
+<table summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 38, /css/shiny/base/_table.less */
+table {
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* line 44, /css/shiny/base/_table.less */
+table thead tr th,
+table thead tr td {
+  text-align: left;
+  vertical-align: top;
+}
+/* line 52, /css/shiny/base/_table.less */
+table tbody tr:hover,
+table tbody tr:focus,
+table tbody tr:hover,
+table tbody tr:focus {
+  background-color: #efefef;
+}
+/* line 58, /css/shiny/base/_table.less */
+table tbody tr th,
+table tbody tr td {
+  text-align: left;
+  vertical-align: top;
+}
+/*
+ 
+##.table-bordered
+
+```
+<table class="table-bordered" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 100, /css/shiny/base/_table.less */
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #d8d8d8;
+}
+/*
+ 
+##.table-bordered-top
+
+```
+<table class="table-bordered-top" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 138, /css/shiny/base/_table.less */
+.table-bordered-top {
+  border-bottom: 1px solid #d8d8d8;
+}
+/* line 140, /css/shiny/base/_table.less */
+.table-bordered-top th,
+.table-bordered-top td {
+  border-top: 1px solid #d8d8d8;
+}
+/*
+ 
+##.table-bordered + .table-padded
+
+```
+<table class="table-bordered table-padded" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 179, /css/shiny/base/_table.less */
+.table-padded th,
+.table-padded td {
+  padding: 8px;
+}
+/*
+ 
+##.table-bordered + .table-padded + .table-full-width = .default
+
+```
+<table class="default" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 217, /css/shiny/base/_table.less */
+.table-full-width {
+  width: 100%;
+}
+/* line 220, /css/shiny/base/_table.less */
+.default {
+  width: 100%;
+}
+/* line 100, /css/shiny/base/_table.less */
+.default th,
+.default td {
+  border: 1px solid #d8d8d8;
+}
+/* line 179, /css/shiny/base/_table.less */
+.default th,
+.default td {
+  padding: 8px;
+}
+/*
+ 
+##.table-bordered + .table-padded + .table-full-width + .table-striped = .default-striped
+Not supported in IE8.
+
+```
+<table class="default-striped" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 262, /css/shiny/base/_table.less */
+.table-striped tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+/* line 267, /css/shiny/base/_table.less */
+.default-striped {
+  width: 100%;
+}
+/* line 100, /css/shiny/base/_table.less */
+.default-striped th,
+.default-striped td {
+  border: 1px solid #d8d8d8;
+}
+/* line 179, /css/shiny/base/_table.less */
+.default-striped th,
+.default-striped td {
+  padding: 8px;
+}
+/* line 262, /css/shiny/base/_table.less */
+.default-striped tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+/*
+ 
+##.nowrap-headers
+Forces the content inside `thead > th` should not wrap
+
+```
+<table class="default nowrap-headers" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 303, /css/shiny/base/_table.less */
+.nowrap-headers thead th {
+  white-space: nowrap;
+}
+/*
+ 
+##Sortable table
+Not supported in IE8.
+
+```
+<table class="default sortable-table" summary="summary of table info">
+  <thead>
+    <tr>
+      <th scope="col">Table Header 1</th>
+      <th scope="col">Table Header 2</th>
+      <th scope="col">Table Header 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+    <tr>
+      <td>Division 1</td>
+      <td>Division 2</td>
+      <td>Division 3</td>
+    </tr>
+  </tbody>
+</table>
+```
+
+*/
+/* line 343, /css/shiny/base/_table.less */
+.sortable-table {
+  border-bottom: 1px solid #d8d8d8;
+  width: 100%;
+}
+/* line 140, /css/shiny/base/_table.less */
+.sortable-table th,
+.sortable-table td {
+  border-top: 1px solid #d8d8d8;
+}
+/* line 179, /css/shiny/base/_table.less */
+.sortable-table th,
+.sortable-table td {
+  padding: 8px;
+}
+/* line 347, /css/shiny/base/_table.less */
+.sortable-table .tablesorter-header {
+  cursor: pointer;
+}
+/* line 349, /css/shiny/base/_table.less */
+.sortable-table .tablesorter-header .tablesorter-header-inner {
+  padding-left: 13px;
+  position: relative;
+}
+/* line 352, /css/shiny/base/_table.less */
+.sortable-table .tablesorter-header .tablesorter-header-inner i {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: transparent url(/css/sprite-fda.png) 0 0 no-repeat;
+  vertical-align: text-top;
+  width: 7px;
+  height: 12px;
+  background-position: -171px -16px;
+  position: absolute;
+  left: 0;
+  top: 3px;
+}
+/* line 364, /css/shiny/base/_table.less */
+.sortable-table .tablesorter-header.tablesorter-headerAsc .tablesorter-header-inner i {
+  background-position: -171px -28px;
+}
+/* line 371, /css/shiny/base/_table.less */
+.sortable-table .tablesorter-header.tablesorter-headerDesc .tablesorter-header-inner i {
+  background-position: -171px -40px;
+}
+/* line 1, /css/shiny/base/_form.less */
+.width-10-percent {
+  width: 10%;
+}
+@media screen and (max-width: 650px) {
+  /* line 3, /css/shiny/base/_form.less */
+  .width-10-percent {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 6, /css/shiny/base/_form.less */
+  .width-10-percent {
+    width: 100%;
+  }
+}
+/* line 10, /css/shiny/base/_form.less */
+.width-20-percent {
+  width: 20%;
+}
+@media screen and (max-width: 650px) {
+  /* line 12, /css/shiny/base/_form.less */
+  .width-20-percent {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 15, /css/shiny/base/_form.less */
+  .width-20-percent {
+    width: 100%;
+  }
+}
+/* line 19, /css/shiny/base/_form.less */
+.width-30-percent {
+  width: 30%;
+}
+@media screen and (max-width: 650px) {
+  /* line 21, /css/shiny/base/_form.less */
+  .width-30-percent {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 24, /css/shiny/base/_form.less */
+  .width-30-percent {
+    width: 100%;
+  }
+}
+/* line 28, /css/shiny/base/_form.less */
+.width-40-percent {
+  width: 40%;
+}
+@media screen and (max-width: 650px) {
+  /* line 30, /css/shiny/base/_form.less */
+  .width-40-percent {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 33, /css/shiny/base/_form.less */
+  .width-40-percent {
+    width: 100%;
+  }
+}
+/* line 37, /css/shiny/base/_form.less */
+.width-50-percent {
+  width: 50%;
+}
+@media screen and (max-width: 650px) {
+  /* line 39, /css/shiny/base/_form.less */
+  .width-50-percent {
+    width: 100%;
+  }
+}
+/* line 43, /css/shiny/base/_form.less */
+.width-60-percent {
+  width: 60%;
+}
+@media screen and (max-width: 650px) {
+  /* line 45, /css/shiny/base/_form.less */
+  .width-60-percent {
+    width: 100%;
+  }
+}
+/* line 49, /css/shiny/base/_form.less */
+.width-70-percent {
+  width: 70%;
+}
+@media screen and (max-width: 650px) {
+  /* line 51, /css/shiny/base/_form.less */
+  .width-70-percent {
+    width: 100%;
+  }
+}
+/* line 55, /css/shiny/base/_form.less */
+.width-80-percent {
+  width: 80%;
+}
+@media screen and (max-width: 650px) {
+  /* line 57, /css/shiny/base/_form.less */
+  .width-80-percent {
+    width: 100%;
+  }
+}
+/* line 61, /css/shiny/base/_form.less */
+.width-90-percent {
+  width: 90%;
+}
+@media screen and (max-width: 650px) {
+  /* line 63, /css/shiny/base/_form.less */
+  .width-90-percent {
+    width: 100%;
+  }
+}
+/* line 67, /css/shiny/base/_form.less */
+.width-100-percent {
+  width: 100%;
+}
+/* line 72, /css/shiny/base/_form.less */
+.ui-datepicker-trigger {
+  padding-left: 3px;
+  vertical-align: middle;
+}
+@media screen and (max-width: 650px) {
+  /* line 75, /css/shiny/base/_form.less */
+  .ui-datepicker-trigger {
+    display: none;
+  }
+}
+/* line 79, /css/shiny/base/_form.less */
+.form-row {
+  margin: 0 0 21px;
+}
+/* line 82, /css/shiny/base/_form.less */
+.required {
+  color: #c4380d;
+}
+/* line 85, /css/shiny/base/_form.less */
+.help-text {
+  color: #999999;
+}
+/* line 88, /css/shiny/base/_form.less */
+fieldset {
+  padding: 0;
+  margin: 0 0 42px;
+  border: 0;
+}
+/* line 93, /css/shiny/base/_form.less */
+legend {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 10.5px;
+  border: 0;
+  font-size: 21px;
+  line-height: 26.25px;
+  font-weight: bold;
+  font-weight: normal;
+  color: #333333;
+}
+/* line 238, /css/shiny/base/_typography.less */
+legend small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  legend small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+legend small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 102, /css/shiny/base/_form.less */
+legend small {
+  font-size: 14px;
+  color: #333333;
+  font-weight: normal;
+  display: block;
+}
+/* line 108, /css/shiny/base/_form.less */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  font-size: 14px;
+  line-height: 21px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+/* line 131, /css/shiny/base/_form.less */
+textarea {
+  height: auto;
+}
+/* line 135, /css/shiny/base/_form.less */
+textarea,
+input,
+select {
+  /*-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+     -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+       -o-transition: border linear 0.2s, box-shadow linear 0.2s;
+          transition: border linear 0.2s, box-shadow linear 0.2s;*/
+
+}
+/* line 149, /css/shiny/base/_form.less */
+textarea:focus,
+input:focus {
+  border-color: rgba(82, 168, 236, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+}
+/* line 161, /css/shiny/base/_form.less */
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 4px 0 0;
+  margin-top: 1px \9;
+  *margin-top: 0;
+  line-height: normal;
+  border: 0;
+}
+/* line 170, /css/shiny/base/_form.less */
+input[type="file"],
+input[type="image"],
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+}
+/* line 180, /css/shiny/base/_form.less */
+select[multiple],
+select[size] {
+  height: auto;
+}
+/* line 185, /css/shiny/base/_form.less */
+select:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+/* line 195, /css/shiny/base/_form.less */
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #999999;
+}
+/* line 200, /css/shiny/base/_form.less */
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #999999;
+}
+/* line 205, /css/shiny/base/_form.less */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #999999;
+}
+/* line 210, /css/shiny/base/_form.less */
+.radio,
+.checkbox {
+  min-height: 20px;
+  padding-left: 20px;
+}
+/* line 216, /css/shiny/base/_form.less */
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -20px;
+}
+/* line 222, /css/shiny/base/_form.less */
+.controls > .radio:first-child,
+.controls > .checkbox:first-child {
+  padding-top: 5px;
+}
+/* line 227, /css/shiny/base/_form.less */
+.radio.inline,
+.checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+/* line 235, /css/shiny/base/_form.less */
+.radio.inline + .radio.inline,
+.checkbox.inline + .checkbox.inline {
+  margin-left: 10px;
+}
+/* line 241, /css/shiny/base/_form.less */
+input[class*="span"],
+select[class*="span"],
+textarea[class*="span"],
+.uneditable-input[class*="span"],
+.row-fluid input[class*="span"],
+.row-fluid select[class*="span"],
+.row-fluid textarea[class*="span"],
+.row-fluid .uneditable-input[class*="span"] {
+  float: none;
+  margin-left: 0;
+}
+/* line 253, /css/shiny/base/_form.less */
+.input-append input[class*="span"],
+.input-append .uneditable-input[class*="span"],
+.input-prepend input[class*="span"],
+.input-prepend .uneditable-input[class*="span"],
+.row-fluid input[class*="span"],
+.row-fluid select[class*="span"],
+.row-fluid textarea[class*="span"],
+.row-fluid .uneditable-input[class*="span"],
+.row-fluid .input-prepend [class*="span"],
+.row-fluid .input-append [class*="span"] {
+  display: inline-block;
+}
+/* line 266, /css/shiny/base/_form.less */
+input,
+textarea,
+.uneditable-input {
+  margin-left: 0;
+}
+/* line 272, /css/shiny/base/_form.less */
+input[disabled],
+select[disabled],
+textarea[disabled],
+input[readonly],
+select[readonly],
+textarea[readonly] {
+  cursor: not-allowed;
+  background-color: #eeeeee;
+}
+/* line 282, /css/shiny/base/_form.less */
+input[type="radio"][disabled],
+input[type="checkbox"][disabled],
+input[type="radio"][readonly],
+input[type="checkbox"][readonly] {
+  background-color: transparent;
+}
+/* line 290, /css/shiny/base/_form.less */
+.box-error * {
+  color: #dd4b39;
+}
+/* line 294, /css/shiny/base/_form.less */
+.error > span:first-child {
+  color: #dd4b39;
+}
+/* line 297, /css/shiny/base/_form.less */
+.error select,
+.error textarea,
+.error input[type="text"],
+.error input[type="password"],
+.error input[type="datetime"],
+.error input[type="datetime-local"],
+.error input[type="date"],
+.error input[type="month"],
+.error input[type="time"],
+.error input[type="week"],
+.error input[type="number"],
+.error input[type="email"],
+.error input[type="url"],
+.error input[type="search"],
+.error input[type="tel"],
+.error input[type="color"] {
+  border-color: #dd4b39;
+}
+/* line 318, /css/shiny/base/_form.less */
+.custom-select-menu .label {
+  float: left;
+  padding-right: 5px;
+  height: 28px;
+  line-height: 28px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 325, /css/shiny/base/_form.less */
+.custom-select-menu .select {
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  float: left;
+  padding: 0 3px 0 10px;
+  height: 28px;
+  line-height: 26px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 333, /css/shiny/base/_form.less */
+.custom-select-menu .select select {
+  border: none;
+  color: #666666;
+  margin: 0 !important;
+  padding: 0;
+  vertical-align: baseline;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  /* line 339, /css/shiny/base/_form.less */
+  .custom-select-menu .select select {
+    -webkit-appearance: none;
+    padding-right: 15px;
+    background: transparent url(/static/images/sprite-globalnav.png) 100% -342px no-repeat;
+  }
+}
+/* line 346, /css/shiny/base/_form.less */
+.custom-select-menu .button {
+  float: left;
+}
+/* line 348, /css/shiny/base/_form.less */
+.custom-select-menu .button button,
+.custom-select-menu .button input {
+  height: 28px;
+  border: 1px solid #cccccc;
+  background-color: #cccccc;
+  color: #333;
+  padding: 0 10px;
+  border: 0;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  background-image: none;
+  border-radius: 0;
+  outline: 0;
+  overflow: visible;
+  text-shadow: none;
+}
+/* line 364, /css/shiny/base/_form.less */
+.custom-select-menu .button button:hover,
+.custom-select-menu .button input:hover,
+.custom-select-menu .button button:focus,
+.custom-select-menu .button input:focus {
+  background-image: none;
+  background-color: #333333;
+  border-color: #333333;
+  color: #ffffff;
+}
+/* line 4, /css/shiny/base/_elements.less */
+.scalable-image img,
+.scalable-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+}
+/* line 11, /css/shiny/base/_elements.less */
+.image-align-default {
+  margin: 0;
+  display: table;
+  width: 200px\9;
+  /* ie8 */
+
+}
+/* line 15, /css/shiny/base/_elements.less */
+.image-align-default img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+  width: 200px\9;
+  /* ie8 */
+
+}
+/* line 19, /css/shiny/base/_elements.less */
+.image-align-default figcaption {
+  padding: 5px 0 0;
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+  color: #999999;
+  line-height: 1.3em;
+}
+@media screen and (max-width: 810px) {
+  /* line 27, /css/shiny/base/_elements.less */
+  .image-align-default {
+    max-width: 30%;
+  }
+}
+/* line 31, /css/shiny/base/_elements.less */
+.image-align-left {
+  margin: 0;
+  display: table;
+  width: 200px\9;
+  /* ie8 */
+
+  margin: 0 25px 20px 0;
+  float: left;
+}
+/* line 15, /css/shiny/base/_elements.less */
+.image-align-left img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+  width: 200px\9;
+  /* ie8 */
+
+}
+/* line 19, /css/shiny/base/_elements.less */
+.image-align-left figcaption {
+  padding: 5px 0 0;
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+  color: #999999;
+  line-height: 1.3em;
+}
+@media screen and (max-width: 810px) {
+  /* line 27, /css/shiny/base/_elements.less */
+  .image-align-left {
+    max-width: 30%;
+  }
+}
+/* line 36, /css/shiny/base/_elements.less */
+.image-align-right {
+  margin: 0;
+  display: table;
+  width: 200px\9;
+  /* ie8 */
+
+  margin: 0 0 20px 25px;
+  float: right;
+}
+/* line 15, /css/shiny/base/_elements.less */
+.image-align-right img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+  width: 200px\9;
+  /* ie8 */
+
+}
+/* line 19, /css/shiny/base/_elements.less */
+.image-align-right figcaption {
+  padding: 5px 0 0;
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+  color: #999999;
+  line-height: 1.3em;
+}
+@media screen and (max-width: 810px) {
+  /* line 27, /css/shiny/base/_elements.less */
+  .image-align-right {
+    max-width: 30%;
+  }
+}
+/* line 41, /css/shiny/base/_elements.less */
+.image-align-center {
+  margin: 0;
+  display: table;
+  width: 200px\9;
+  /* ie8 */
+
+  margin: 0 auto 20px;
+  float: none;
+  clear: both;
+}
+/* line 15, /css/shiny/base/_elements.less */
+.image-align-center img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: auto\9;
+  /* ie8 */
+
+  width: 200px\9;
+  /* ie8 */
+
+}
+/* line 19, /css/shiny/base/_elements.less */
+.image-align-center figcaption {
+  padding: 5px 0 0;
+  display: table-caption;
+  caption-side: bottom;
+  text-align: left;
+  color: #999999;
+  line-height: 1.3em;
+}
+@media screen and (max-width: 810px) {
+  /* line 27, /css/shiny/base/_elements.less */
+  .image-align-center {
+    max-width: 30%;
+  }
+}
+@media screen and (max-width: 810px) {
+  /* line 46, /css/shiny/base/_elements.less */
+  .image-align-center {
+    max-width: 90%;
+  }
+}
+/* line 50, /css/shiny/base/_elements.less */
+.image-group {
+  clear: both;
+  oveflow: hidden;
+  margin-bottom: 21px;
+  text-align: center;
+}
+/* line 55, /css/shiny/base/_elements.less */
+.image-group img {
+  display: block;
+  max-width: 100%;
+  width: auto\9;
+  /* ie8 */
+
+  display: inline-block;
+  padding: 0 10px;
+  max-width: 30%;
+  height: auto;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 63, /css/shiny/base/_elements.less */
+.image-group figcaption {
+  padding: 5px 10% 0;
+  text-align: center;
+  color: #999999;
+  line-height: 1.3em;
+}
+/* line 70, /css/shiny/base/_elements.less */
+.tab-links {
+  background-color: #ddedfd;
+  margin: 0 0 31.5px;
+}
+/* line 73, /css/shiny/base/_elements.less */
+.tab-links ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  border-bottom: 2px solid #8fbbe4;
+}
+/* line 79, /css/shiny/base/_elements.less */
+.tab-links ul li {
+  margin: 4px 0 4px -4px;
+  padding: 1px 15px 0;
+  list-style: none;
+  display: inline-block;
+  border-left: 1px solid #8fbbe4;
+  background-color: transparent;
+}
+/* line 86, /css/shiny/base/_elements.less */
+.tab-links ul li strong {
+  font-weight: normal;
+}
+/* line 89, /css/shiny/base/_elements.less */
+.tab-links ul li a {
+  color: #069bff;
+}
+/* line 92, /css/shiny/base/_elements.less */
+.tab-links ul li:first-child {
+  border-left: none;
+}
+/* line 95, /css/shiny/base/_elements.less */
+.tab-links ul li:last-child {
+  border-right: none !important;
+}
+/* line 98, /css/shiny/base/_elements.less */
+.tab-links ul li.selected {
+  margin: 0 0 -2px;
+  padding: 5px 15px 6px;
+  border: 2px solid #8fbbe4 !important;
+  border-bottom-color: #ffffff;
+  border-bottom: none !important;
+  border-radius: 4px 4px 0 0;
+  background-color: #ffffff;
+  color: #333333;
+}
+/* line 107, /css/shiny/base/_elements.less */
+.tab-links ul li.selected strong {
+  font-weight: bold;
+}
+/* line 110, /css/shiny/base/_elements.less */
+.tab-links ul li.selected a {
+  color: #333333;
+  cursor: text;
+}
+/* line 114, /css/shiny/base/_elements.less */
+.tab-links ul li.selected ~ li {
+  border-left: none;
+  border-right: 1px solid #8fbbe4;
+}
+@media screen and (max-width: 810px) {
+  /* line 117, /css/shiny/base/_elements.less */
+  .tab-links ul li.selected ~ li {
+    border: none;
+  }
+}
+@media screen and (max-width: 810px) {
+  /* line 121, /css/shiny/base/_elements.less */
+  .tab-links ul li.selected {
+    border: 2px solid #8fbbe4 !important;
+    border-radius: 4px;
+    margin: 0;
+  }
+}
+@media screen and (max-width: 810px) {
+  /* line 127, /css/shiny/base/_elements.less */
+  .tab-links ul li {
+    margin: 2px 0;
+    padding: 4px 10px;
+    border: none;
+  }
+}
+@media screen and (max-width: 810px) {
+  /* line 133, /css/shiny/base/_elements.less */
+  .tab-links ul {
+    padding: 10px;
+    text-align: left;
+    border-bottom: none;
+  }
+}
+/* line 140, /css/shiny/base/_elements.less */
+.bgcolored-box01 {
+  background-color: #efefef;
+  margin-bottom: 21px;
+}
+/* line 144, /css/shiny/base/_elements.less */
+.bgcolored-box02 {
+  background-color: #ddedfd;
+  margin-bottom: 21px;
+}
+/* line 148, /css/shiny/base/_elements.less */
+.bordered-box01 {
+  border: 1px solid #cccccc;
+  margin-bottom: 21px;
+}
+/* line 152, /css/shiny/base/_elements.less */
+.bordered-box02 {
+  border-top: 8px solid #cccccc;
+  margin-bottom: 21px;
+}
+/* line 157, /css/shiny/base/_elements.less */
+.standard-padding-span24 {
+  padding: 1.4406779661016949% 1.694915254237288% 0.5084745762711864% 1.694915254237288%;
+}
+/* line 160, /css/shiny/base/_elements.less */
+.standard-padding-span18 {
+  padding: 1.9318181818181819% 2.272727272727273% 0.6818181818181819% 2.272727272727273%;
+}
+/* line 163, /css/shiny/base/_elements.less */
+.standard-padding-span12 {
+  padding: 2.9310344827586206% 3.4482758620689653% 1.0344827586206895% 3.4482758620689653%;
+}
+/* line 166, /css/shiny/base/_elements.less */
+.standard-padding-span9 {
+  padding: 3.953488372093023% 4.651162790697675% 1.3953488372093024% 4.651162790697675%;
+}
+/* line 169, /css/shiny/base/_elements.less */
+.standard-padding-span8 {
+  padding: 4.473684210526315% 5.263157894736842% 1.5789473684210524% 5.263157894736842%;
+}
+/* line 172, /css/shiny/base/_elements.less */
+.standard-padding-span6 {
+  padding: 6.071428571428571% 7.142857142857142% 2.142857142857143% 7.142857142857142%;
+}
+@media screen and (max-width: 650px) {
+  /* line 177, /css/shiny/base/_elements.less */
+  .row.responsive01 > .span12 .standard-padding-span12,
+  .row.responsive01 > .span18 .standard-padding-span18,
+  .row.responsive01 > .span6 > .standard-padding-span6 {
+    padding: 1.4406779661016949% 1.694915254237288% 0.5084745762711864% 1.694915254237288%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 186, /css/shiny/base/_elements.less */
+  .row.responsive01 > .span18 > .row .span6 .standard-padding-span6 {
+    padding: 1.4406779661016949% 1.694915254237288% 0.5084745762711864% 1.694915254237288%;
+  }
+}
+/* line 191, /css/shiny/base/_elements.less */
+.padding-off-top {
+  padding-top: 0 !important;
+}
+/* line 192, /css/shiny/base/_elements.less */
+.padding-off-right {
+  padding-right: 0 !important;
+}
+/* line 193, /css/shiny/base/_elements.less */
+.padding-off-bottom {
+  padding-bottom: 0 !important;
+}
+/* line 194, /css/shiny/base/_elements.less */
+.padding-off-left {
+  padding-left: 0 !important;
+}
+/* line 223, /css/shiny/base/_elements.less */
+.bordered {
+  border: 1px solid #cccccc;
+}
+/* line 261, /css/shiny/base/_elements.less */
+.drop-shadow-01 {
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+/* line 264, /css/shiny/base/_elements.less */
+.drop-shadow-02 {
+  -webkit-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+/* line 267, /css/shiny/base/_elements.less */
+.drop-shadow-03 {
+  -webkit-box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 15px 15px -15px rgba(0, 0, 0, 0.3);
+}
+/* line 356, /css/shiny/base/_elements.less */
+.columns-3columns {
+  -moz-column-count: 4;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 4;
+  column-gap: 20px;
+}
+/* line 373, /css/shiny/base/_elements.less */
+.vertical-align-middle * {
+  vertical-align: middle;
+}
+/* line 2, /css/shiny/_header.less */
+.wrapper.header {
+  background-color: #ffffff;
+}
+/* line 5, /css/shiny/_header.less */
+.wrapper.header-nav {
+  background-color: #efefef;
+  border-top: 5px solid #cccccc;
+}
+/* line 11, /css/shiny/_header.less */
+.content.header {
+  background-color: #ffffff;
+}
+/* line 14, /css/shiny/_header.less */
+.content.header-nav {
+  background-color: transparent;
+}
+@media screen and (max-width: 810px) {
+  /* line 16, /css/shiny/_header.less */
+  .content.header-nav {
+    padding: 0;
+  }
+}
+/* line 21, /css/shiny/_header.less */
+.fdahead {
+  clear: both;
+}
+/* line 26, /css/shiny/_header.less */
+.fdahead .content.header {
+  position: relative;
+}
+/* line 29, /css/shiny/_header.less */
+.fdahead .fdahead-logo {
+  font-size: 24px;
+}
+/* line 31, /css/shiny/_header.less */
+.fdahead .fdahead-logo a {
+  display: inline-block;
+  color: #333333;
+  text-decoration: none;
+  padding: 20px 0 15px;
+}
+/* line 36, /css/shiny/_header.less */
+.fdahead .fdahead-logo a img {
+  vertical-align: middle;
+}
+/* line 39, /css/shiny/_header.less */
+.fdahead .fdahead-logo a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+@media screen and (max-width: 810px) {
+  /* line 43, /css/shiny/_header.less */
+  .fdahead .fdahead-logo a {
+    padding: 10px 0 10px;
+  }
+}
+/* line 48, /css/shiny/_header.less */
+.fdahead .fdahead-nav-toggle {
+  display: none;
+}
+/* line 50, /css/shiny/_header.less */
+.fdahead .fdahead-nav-toggle span {
+  position: absolute;
+  left: 0;
+  top: -5000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+@media screen and (max-width: 810px) {
+  /* line 58, /css/shiny/_header.less */
+  .fdahead .fdahead-nav-toggle {
+    display: inline-block;
+    width: 20px;
+    height: 17px;
+    margin-right: 20px;
+    background: transparent url(/css/sprite-fda.png) 0 0 no-repeat;
+    background-color: transparent;
+    border: none;
+  }
+}
+/* line 67, /css/shiny/_header.less */
+.fdahead .fdahead-nav {
+  margin: -5px 0 0 !important;
+}
+/* line 72, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul {
+  margin-left: 0;
+  list-style: none;
+  overflow: hidden;
+  margin: 0 !important;
+}
+/* line 345, /css/shiny/base/_typography.less */
+.fdahead .fdahead-nav ul .plain {
+  margin-left: 25px;
+  list-style: none;
+}
+/* line 357, /css/shiny/base/_typography.less */
+.fdahead .fdahead-nav ul > li {
+  display: inline-block;
+  *display: inline;
+  padding-right: 15px;
+  *zoom: 1;
+  line-height: 14px;
+  margin: 4px 0;
+}
+/* line 364, /css/shiny/base/_typography.less */
+.fdahead .fdahead-nav ul > li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+/* line 77, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li {
+  width: 25%;
+  float: left;
+  margin: 0;
+  padding: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  border-right: 1px solid #ffffff;
+}
+/* line 85, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li:first-child {
+  border-left: 1px solid #ffffff;
+}
+/* line 88, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li a {
+  display: block;
+  color: #333333;
+  padding: 8px 0 10px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 5px solid #069bff;
+  background-color: #efefef;
+  text-decoration: none;
+}
+/* line 96, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li a:focus,
+.fdahead .fdahead-nav ul li a:hover {
+  background-color: #6b983b;
+  color: #ffffff;
+}
+/* line 103, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.one a {
+  border-color: #6b983b;
+}
+/* line 108, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.two a {
+  border-color: #025b94;
+}
+/* line 110, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.two a:focus,
+.fdahead .fdahead-nav ul li.two a:hover {
+  background-color: #025b94;
+}
+/* line 117, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.three a {
+  border-color: #c58f0b;
+}
+/* line 119, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.three a:focus,
+.fdahead .fdahead-nav ul li.three a:hover {
+  background-color: #c58f0b;
+}
+/* line 126, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.four a {
+  border-color: #663366;
+}
+/* line 128, /css/shiny/_header.less */
+.fdahead .fdahead-nav ul li.four a:focus,
+.fdahead .fdahead-nav ul li.four a:hover {
+  background-color: #663366;
+}
+@media screen and (max-width: 810px) {
+  /* line 134, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li {
+    width: 100%;
+    float: none;
+    text-align: left;
+    border: none !important;
+    border-top: 1px solid #ffffff !important;
+  }
+  /* line 140, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li a {
+    padding: 15px 1.694915254237288%;
+    color: #ffffff;
+    border: none;
+  }
+  /* line 146, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.one a {
+    background-color: #6b983b;
+  }
+  /* line 148, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.one a:focus,
+  .fdahead .fdahead-nav ul li.one a:hover {
+    background-color: #374e1e;
+  }
+  /* line 155, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.two a {
+    background-color: #025b94;
+  }
+  /* line 157, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.two a:focus,
+  .fdahead .fdahead-nav ul li.two a:hover {
+    background-color: #011d2f;
+  }
+  /* line 164, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.three a {
+    background-color: #c58f0b;
+  }
+  /* line 166, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.three a:focus,
+  .fdahead .fdahead-nav ul li.three a:hover {
+    background-color: #654905;
+  }
+  /* line 173, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.four a {
+    background-color: #663366;
+  }
+  /* line 175, /css/shiny/_header.less */
+  .fdahead .fdahead-nav ul li.four a:focus,
+  .fdahead .fdahead-nav ul li.four a:hover {
+    background-color: #221122;
+  }
+}
+@media screen and (max-width: 810px) {
+  /* line 184, /css/shiny/_header.less */
+  .fdahead .fdahead-nav {
+    display: none;
+  }
+  /* line 186, /css/shiny/_header.less */
+  .fdahead .fdahead-nav.active {
+    display: block;
+  }
+}
+/* line 191, /css/shiny/_header.less */
+.fdahead .fdahead-search {
+  background-color: #efefef;
+  position: absolute;
+  right: 1.694915254237288%;
+  top: 20px;
+}
+/* line 197, /css/shiny/_header.less */
+.fdahead .fdahead-search form {
+  margin: 0;
+}
+/* line 199, /css/shiny/_header.less */
+.fdahead .fdahead-search form input,
+.fdahead .fdahead-search form button,
+.fdahead .fdahead-search form select {
+  border: none;
+  background-color: transparent;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 206, /css/shiny/_header.less */
+.fdahead .fdahead-search form input {
+  width: 300px;
+}
+/* line 210, /css/shiny/_header.less */
+.fdahead .fdahead-search form button span {
+  position: absolute;
+  left: 0;
+  top: -5000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* line 218, /css/shiny/_header.less */
+.fdahead .fdahead-search form button i {
+  display: inline-block;
+  width: 14px;
+  height: 13px;
+  background: transparent url(/css/sprite-fda.png) -14px -60px no-repeat;
+}
+@media screen and (max-width: 810px) {
+  /* line 226, /css/shiny/_header.less */
+  .fdahead .fdahead-search {
+    position: static;
+    overflow: hidden;
+    border-bottom: 10px solid #ffffff;
+  }
+  /* line 231, /css/shiny/_header.less */
+  .fdahead .fdahead-search form {
+    overflow: hidden;
+  }
+  /* line 233, /css/shiny/_header.less */
+  .fdahead .fdahead-search form select {
+    width: 40%;
+  }
+  /* line 236, /css/shiny/_header.less */
+  .fdahead .fdahead-search form input {
+    width: 55%;
+  }
+  /* line 239, /css/shiny/_header.less */
+  .fdahead .fdahead-search form button {
+    width: 5%;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 246, /css/shiny/_header.less */
+  .fdahead .fdahead-search form select {
+    width: 40%;
+  }
+  /* line 249, /css/shiny/_header.less */
+  .fdahead .fdahead-search form input {
+    width: 53%;
+  }
+  /* line 252, /css/shiny/_header.less */
+  .fdahead .fdahead-search form button {
+    width: 7%;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 259, /css/shiny/_header.less */
+  .fdahead .fdahead-search form select {
+    width: 40%;
+  }
+  /* line 262, /css/shiny/_header.less */
+  .fdahead .fdahead-search form input {
+    width: 50%;
+  }
+  /* line 265, /css/shiny/_header.less */
+  .fdahead .fdahead-search form button {
+    width: 10%;
+  }
+}
+/* line 2, /css/shiny/_footer.less */
+.wrapper.footer {
+  background-color: #efefef;
+}
+/* line 7, /css/shiny/_footer.less */
+.content.footer {
+  background-color: transparent;
+}
+/* line 11, /css/shiny/_footer.less */
+.fdafoot {
+  clear: both;
+  position: relative;
+  color: #999999;
+}
+/* line 15, /css/shiny/_footer.less */
+.fdafoot ul {
+  margin-left: 0;
+  list-style: none;
+  padding: 20px 0 0;
+}
+/* line 345, /css/shiny/base/_typography.less */
+.fdafoot ul .plain {
+  margin-left: 25px;
+  list-style: none;
+}
+/* line 357, /css/shiny/base/_typography.less */
+.fdafoot ul > li {
+  display: inline-block;
+  *display: inline;
+  padding-right: 15px;
+  *zoom: 1;
+  line-height: 14px;
+  margin: 4px 0;
+}
+/* line 364, /css/shiny/base/_typography.less */
+.fdafoot ul > li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+/* line 19, /css/shiny/_footer.less */
+.fdafoot ul a {
+  color: #069bff;
+}
+/* line 1, /css/shiny/_default.less */
+body {
+  background-color: #efefef !important;
+}
+/* line 11, /css/shiny/_default.less */
+h1,
+h2,
+.mimic-h2,
+h3,
+.mimic-h3 {
+  font-weight: normal;
+  color: #333333;
+}
+/* line 19, /css/shiny/_default.less */
+.hidden {
+  position: absolute;
+  left: 0px;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* line 27, /css/shiny/_default.less */
+.visible {
+  position: static;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  overflow: visible;
+}
+/* line 35, /css/shiny/_default.less */
+.button-transparent {
+  background-color: transparent;
+  border: none;
+}
+/* line 40, /css/shiny/_default.less */
+footer.locfoot {
+  background-color: #cccccc;
+  padding: 20px;
+  color: #ffffff;
+}
+/* line 46, /css/shiny/_default.less */
+.default-table {
+  display: table;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+/* line 53, /css/shiny/_default.less */
+.default-table-row {
+  display: table-row;
+}
+/* line 56, /css/shiny/_default.less */
+.default-table-cell {
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+/* line 61, /css/shiny/_default.less */
+.default-tabs {
+  margin: 0 0 -1px;
+  padding: 0;
+  list-style: none;
+}
+/* line 65, /css/shiny/_default.less */
+.default-tabs li {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #cccccc;
+  border-bottom: none;
+  background-color: transparent;
+}
+/* line 71, /css/shiny/_default.less */
+.default-tabs li.active {
+  background-color: #ffffff;
+}
+/* line 101, /css/shiny/_default.less */
+input,
+textarea {
+  box-shadow: none !important;
+}
+/* line 105, /css/shiny/_default.less */
+fieldset {
+  border: 1px solid #cccccc;
+  padding: 10px 20px 15px;
+}
+/* line 111, /css/shiny/_default.less */
+fieldset ul:last-child,
+fieldset ol:last-child,
+fieldset p:last-child {
+  margin-bottom: 0 !important;
+}
+/* line 116, /css/shiny/_default.less */
+legend {
+  font-size: 15.75px;
+  line-height: 22.05px;
+  font-weight: bold;
+  color: #333333;
+  font-weight: normal;
+  display: block;
+  width: auto;
+  padding: 0 5px;
+  margin: 0;
+  border: 0;
+}
+/* line 247, /css/shiny/base/_typography.less */
+legend small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  legend small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+legend small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 125, /css/shiny/_default.less */
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"] {
+  font-size: 14px;
+  height: 36.4px;
+  line-height: normal;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 8px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 0 !important;
+  -webkit-appearance: none;
+}
+/* line 152, /css/shiny/_default.less */
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+.default-button {
+  font-size: 14px;
+  height: 36.4px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 8px;
+  background-color: #ffffff;
+  border: 1px solid #069bff;
+  border-radius: 0 !important;
+  color: #069bff;
+}
+/* line 166, /css/shiny/_default.less */
+.button {
+  font-size: 14px;
+  height: 36.4px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 8px;
+  background-color: #ffffff;
+  border: 1px solid #069bff;
+  border-radius: 0 !important;
+  color: #069bff;
+  display: inline-block;
+  line-height: 34.4px;
+}
+/* line 177, /css/shiny/_default.less */
+.button.button-primary {
+  color: #ffffff;
+  background-color: #069bff;
+  border: 1px solid #069bff;
+}
+/* line 182, /css/shiny/_default.less */
+.button.button-tertiary {
+  color: #333333;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+}
+/* line 177, /css/shiny/_default.less */
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary,
+button.button-primary,
+.default-button.button-primary {
+  color: #ffffff;
+  background-color: #069bff;
+  border: 1px solid #069bff;
+}
+/* line 182, /css/shiny/_default.less */
+input[type="submit"].button-tertiary,
+input[type="reset"].button-tertiary,
+input[type="button"].button-tertiary,
+button.button-tertiary,
+.default-button.button-tertiary {
+  color: #333333;
+  background-color: #cccccc;
+  border: 1px solid #cccccc;
+}
+/* line 188, /css/shiny/_default.less */
+select {
+  padding: 0 0 0 6px;
+}
+/* line 191, /css/shiny/_default.less */
+select[multiple] {
+  padding: 6px;
+}
+/* webkit only */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  /* line 196, /css/shiny/_default.less */
+  select {
+    padding-right: 20px;
+    background: transparent url(/css/sprite-fda.png) 100% -477px no-repeat;
+  }
+}
+/* line 201, /css/shiny/_default.less */
+textarea {
+  height: auto;
+  padding: 6px;
+}
+/* line 205, /css/shiny/_default.less */
+label {
+  color: #333333;
+}
+/* line 207, /css/shiny/_default.less */
+label.disabled {
+  color: #999999;
+}
+/* line 210, /css/shiny/_default.less */
+label.readonly {
+  color: #333333;
+}
+/* line 214, /css/shiny/_default.less */
+.fda-list-group {
+  margin-left: 0;
+  list-style: none;
+}
+/* line 345, /css/shiny/base/_typography.less */
+.fda-list-group .plain {
+  margin-left: 25px;
+  list-style: none;
+}
+/* line 216, /css/shiny/_default.less */
+.fda-list-group li {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #efefef;
+}
+/* line 220, /css/shiny/_default.less */
+.fda-list-group li a {
+  padding: 10px 100px 10px 0;
+  display: block;
+  position: relative;
+}
+/* line 224, /css/shiny/_default.less */
+.fda-list-group li a .count {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -11px;
+  font-size: 12px;
+  background-color: #efefef;
+  color: #999999;
+  display: inline-block;
+  padding: 0 7px;
+  height: 22px;
+  line-height: 22px;
+  border-radius: 5px;
+}
+/* line 238, /css/shiny/_default.less */
+.fda-list-group li a:hover,
+.fda-list-group li a:focus {
+  background-color: #f5f5f5;
+}
+/* line 241, /css/shiny/_default.less */
+.fda-list-group li a:hover .count,
+.fda-list-group li a:focus .count {
+  background-color: #ffffff;
+}
+/* line 248, /css/shiny/_default.less */
+.homepage-banner-temp {
+  background-color: #333333;
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 30%;
+  /* 12:4 */
+
+  padding-top: 25px;
+  height: 0;
+}
+/* line 257, /css/shiny/_default.less */
+.homepage-banner-temp img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+/* line 266, /css/shiny/_default.less */
+.homepage-banner-temp .text-wrapper {
+  width: 1220px;
+  margin: 0 auto;
+  position: relative;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  padding: 0 1.694915254237288%;
+}
+/* line 273, /css/shiny/_default.less */
+.homepage-banner-temp .text-wrapper .text {
+  color: #ffffff;
+  width: 27%;
+  background-color: #666666;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  left: 1.694915254237288%;
+  top: 50px;
+  z-index: 2;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+}
+/* line 285, /css/shiny/_default.less */
+.homepage-banner-temp .text-wrapper .text h1 {
+  color: #ffffff;
+  font-weight: normal;
+}
+/* line 289, /css/shiny/_default.less */
+.homepage-banner-temp .text-wrapper .text p {
+  color: #cccccc;
+  margin: 0;
+}
+/* line 292, /css/shiny/_default.less */
+.homepage-banner-temp .text-wrapper .text p a {
+  color: #ffffff;
+}
+@media screen and (max-width: 980px) {
+  /* line 296, /css/shiny/_default.less */
+  .homepage-banner-temp .text-wrapper .text {
+    top: 0;
+    left: 0;
+    width: 50%;
+    padding: 1.694915254237288%;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 302, /css/shiny/_default.less */
+  .homepage-banner-temp .text-wrapper .text {
+    width: 60%;
+  }
+  /* line 304, /css/shiny/_default.less */
+  .homepage-banner-temp .text-wrapper .text h1 {
+    font-size: 21px;
+    line-height: 26.25px;
+    font-weight: bold;
+    font-weight: normal;
+    color: #333333;
+    color: #ffffff;
+  }
+  /* line 238, /css/shiny/base/_typography.less */
+  .homepage-banner-temp .text-wrapper .text h1 small {
+    font-weight: normal;
+    line-height: 1;
+    color: #666;
+    font-size: 14px;
+  }
+  /* line 212, /css/shiny/base/_typography.less */
+  .homepage-banner-temp .text-wrapper .text h1 small.block {
+    display: block;
+    margin-top: 5px;
+  }
+  /* line 308, /css/shiny/_default.less */
+  .homepage-banner-temp .text-wrapper .text p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+@media screen and (max-width: 650px) and screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  .homepage-banner-temp .text-wrapper .text h1 h2 small,
+  .homepage-banner-temp .text-wrapper .text h1 .mimic-h2 small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 315, /css/shiny/_default.less */
+  .homepage-banner-temp .text-wrapper .text p span {
+    display: none;
+  }
+}
+@media screen and (max-width: 980px) {
+  /* line 321, /css/shiny/_default.less */
+  .homepage-banner-temp .text-wrapper {
+    width: 100%;
+  }
+}
+/* line 327, /css/shiny/_default.less */
+.page-header {
+  background-color: #888888;
+  background: linear-gradient(rgba(100, 100, 100, 0.85), rgba(100, 100, 100, 0.85)), url(include/pic08.jpg) 100% -210px no-repeat;
+  padding: 40px 0 15px;
+}
+/* line 335, /css/shiny/_default.less */
+.page-header.fda-drug-names {
+  background-color: #6b983b;
+  background: linear-gradient(rgba(107, 152, 59, 0.9), rgba(107, 152, 59, 0.9)), url(include/pic04.jpg) 100% -50px no-repeat;
+}
+/* line 343, /css/shiny/_default.less */
+.page-header.fda-adverse-events {
+  background-color: #025b94;
+  background: linear-gradient(rgba(2, 91, 148, 0.85), rgba(2, 91, 148, 0.85)), url(include/pic05.jpg) 100% -10px no-repeat;
+}
+/* line 351, /css/shiny/_default.less */
+.page-header.fda-enforcement-reports {
+  background-color: #c58f0b;
+  background: linear-gradient(rgba(197, 143, 11, 0.85), rgba(197, 143, 11, 0.85)), url(include/pic07.jpg) 100% -60px no-repeat;
+}
+/* line 359, /css/shiny/_default.less */
+.page-header.fda-drug-manufacturers {
+  background-color: #663366;
+  background: linear-gradient(rgba(102, 51, 102, 0.85), rgba(102, 51, 102, 0.85)), url(include/pic06.jpg) 100% -60px no-repeat;
+}
+/* line 367, /css/shiny/_default.less */
+.page-header h1 {
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+/* line 371, /css/shiny/_default.less */
+.page-header p {
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 5px;
+}
+/* line 378, /css/shiny/_default.less */
+.thumb-link img {
+  display: block;
+  margin-bottom: 10px;
+}
+/* line 384, /css/shiny/_default.less */
+.thumb-link h2 small {
+  display: block;
+  font-size: 12px;
+  color: #999999;
+  margin-bottom: 3px;
+}
+/* line 389, /css/shiny/_default.less */
+.thumb-link h2 small i {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin-right: 3px;
+  background-color: #6b983b;
+  vertical-align: text-top;
+  margin-top: 2px;
+}
+/* line 397, /css/shiny/_default.less */
+.thumb-link h2 small i.blue {
+  background-color: #025b94;
+}
+/* line 400, /css/shiny/_default.less */
+.thumb-link h2 small i.orange {
+  background-color: #c58f0b;
+}
+/* line 403, /css/shiny/_default.less */
+.thumb-link h2 small i.purple {
+  background-color: #663366;
+}
+@media screen and (max-width: 810px) {
+  /* line 412, /css/shiny/_default.less */
+  .fda-home .span8 {
+    width: 100%;
+    margin-left: 1.694915254237288%;
+    float: none;
+  }
+}
+@media screen and (max-width: 810px) {
+  /* line 418, /css/shiny/_default.less */
+  .fda-home .span4 {
+    width: 23.728813559322035%;
+    margin-left: 1.694915254237288%;
+  }
+  /* line 420, /css/shiny/_default.less */
+  .fda-home .span4.first-row {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 650px) {
+  /* line 424, /css/shiny/_default.less */
+  .fda-home .span4 {
+    width: 49.152542372881356%;
+    margin-left: 1.694915254237288%;
+  }
+  /* line 426, /css/shiny/_default.less */
+  .fda-home .span4.second-row {
+    margin-left: 0;
+  }
+}
+/* line 1, /css/shiny/_tabs.less */
+.fda-tabs-interface {
+  padding-top: 10px;
+}
+/* line 3, /css/shiny/_tabs.less */
+.fda-tabs-interface ul {
+  margin-left: 0;
+  list-style: none;
+  padding-top: 15px;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 345, /css/shiny/base/_typography.less */
+.fda-tabs-interface ul .plain {
+  margin-left: 25px;
+  list-style: none;
+}
+/* line 357, /css/shiny/base/_typography.less */
+.fda-tabs-interface ul > li {
+  display: inline-block;
+  *display: inline;
+  padding-right: 15px;
+  *zoom: 1;
+  line-height: 14px;
+  margin: 4px 0;
+}
+/* line 364, /css/shiny/base/_typography.less */
+.fda-tabs-interface ul > li:first-child {
+  padding-left: 0;
+  border-left: 0;
+}
+/* line 8, /css/shiny/_tabs.less */
+.fda-tabs-interface ul li {
+  padding: 0 25px 0 0;
+  margin: 0 0 -1px;
+  font-weight: bold;
+}
+/* line 12, /css/shiny/_tabs.less */
+.fda-tabs-interface ul li:last-child {
+  padding-right: 0;
+}
+@media screen and (max-width: 650px) {
+  /* line 15, /css/shiny/_tabs.less */
+  .fda-tabs-interface ul li {
+    padding-right: 15px;
+  }
+}
+/* line 19, /css/shiny/_tabs.less */
+.fda-tabs-interface ul a {
+  border-bottom: 3px solid transparent;
+  display: inline-block;
+  padding-bottom: 6px;
+  text-decoration: none;
+  color: #999999;
+}
+/* line 27, /css/shiny/_tabs.less */
+.fda-tabs-interface ul .ui-tabs-active a {
+  border-color: #069bff;
+  color: #069bff;
+  font-weight: bold;
+  border-color: #c4380d;
+  color: #c4380d;
+}
+/* line 2, /css/shiny/_accordion.less */
+.fda-accordion-interface h3 {
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: bold;
+  line-height: 18px;
+  margin: 5px 0 0;
+  font-weight: normal;
+  background-color: #999999;
+  color: #ffffff;
+  padding: 10px 35px 10px 10px;
+  position: relative;
+}
+/* line 256, /css/shiny/base/_typography.less */
+.fda-accordion-interface h3 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #666;
+  font-size: 14px;
+}
+@media screen and (max-width: 480px) {
+  /* line 208, /css/shiny/base/_typography.less */
+  .fda-accordion-interface h3 small {
+    display: block;
+    margin-top: 5px;
+  }
+}
+/* line 212, /css/shiny/base/_typography.less */
+.fda-accordion-interface h3 small.block {
+  display: block;
+  margin-top: 5px;
+}
+/* line 11, /css/shiny/_accordion.less */
+.fda-accordion-interface h3 i {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: yellow;
+  background: transparent url(/css/sprite-fda.png) 0 -83px no-repeat;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  margin-top: -5px;
+}
+/* line 22, /css/shiny/_accordion.less */
+.fda-accordion-interface h3.ui-accordion-header-active {
+  background-color: #333333;
+}
+/* line 24, /css/shiny/_accordion.less */
+.fda-accordion-interface h3.ui-accordion-header-active i {
+  background-position: 0 -93px;
+}
+/* line 30, /css/shiny/_accordion.less */
+.fda-accordion-interface div.ui-accordion-content {
+  padding: 10px 0 10px;
+}
+/* line 1, /css/shiny/_table.less */
+.fda-table-default {
+  width: 100%;
+  margin: 0 0 30px;
+}
+/* line 4, /css/shiny/_table.less */
+.fda-table-default caption {
+  text-align: left;
+  border-bottom: 2px solid #333333;
+  padding: 10px 0;
+  font-weight: bold;
+}
+/* line 10, /css/shiny/_table.less */
+.fda-table-default th,
+.fda-table-default td {
+  padding: 10px 0;
+  border-bottom: 1px solid #cccccc;
+}
+/* line 15, /css/shiny/_table.less */
+.fda-table-default th {
+  font-weight: normal;
+  width: 20%;
+  color: #888888;
+}
+/* line 20, /css/shiny/_table.less */
+.fda-table-default td {
+  padding-left: 20px;
+}
+@media screen and (max-width: 650px) {
+  /* line 24, /css/shiny/_table.less */
+  .fda-table-default th {
+    width: 35%;
+  }
+}
+/* line 1, /css/shiny/_icon.less */
+.icon {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background: transparent url(/css/sprite-fda.png) 0 0 no-repeat;
+  vertical-align: text-top;
+}
+/* line 8, /css/shiny/_icon.less */
+.back {
+  background-position: 0 -73px;
+  margin-top: 5px;
+}
+/* line 12, /css/shiny/_icon.less */
+.next {
+  background-position: 0 -78px;
+  margin-top: 5px;
+}
+/* line 2, /css/shiny/_alpha.less */
+.fda-alpha-nav h2 {
+  position: absolute;
+  left: 0px;
+  top: -500px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+/* line 5, /css/shiny/_alpha.less */
+.fda-alpha-nav ol {
+  margin-left: 0;
+  list-style: none;
+  overflow: hidden;
+  clear: both;
+}
+/* line 345, /css/shiny/base/_typography.less */
+.fda-alpha-nav ol .plain {
+  margin-left: 25px;
+  list-style: none;
+}
+/* line 9, /css/shiny/_alpha.less */
+.fda-alpha-nav ol li {
+  float: left;
+  margin: 0;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 3.3333333%;
+  height: 28px;
+  line-height: 24px;
+  border: 2px solid #ffffff;
+}
+/* line 17, /css/shiny/_alpha.less */
+.fda-alpha-nav ol li:first-child {
+  border-left: none;
+}
+/* line 20, /css/shiny/_alpha.less */
+.fda-alpha-nav ol li:last-child {
+  border-right: none;
+}
+/* line 23, /css/shiny/_alpha.less */
+.fda-alpha-nav ol li.double {
+  width: 6.6666666%;
+}
+/* line 26, /css/shiny/_alpha.less */
+.fda-alpha-nav ol li a {
+  border: 1px solid #069bff;
+  display: block;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+  color: #069bff;
+}
+/* line 34, /css/shiny/_alpha.less */
+.fda-alpha-nav ol li.selected a {
+  background-color: #069bff;
+  color: #ffffff;
+}
+@media screen and (max-width: 810px) {
+  /* line 39, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li {
+    width: 6.6666666%;
+  }
+  /* line 41, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li.double {
+    width: 13.3333333%;
+  }
+  /* line 44, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li.K {
+    border-right: none;
+  }
+  /* line 47, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li.L {
+    border-left: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  /* line 51, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li {
+    width: 10%;
+  }
+  /* line 53, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li.double {
+    width: 20%;
+  }
+  /* line 56, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li.K {
+    border-right: none;
+  }
+  /* line 59, /css/shiny/_alpha.less */
+  .fda-alpha-nav ol li.L {
+    border-left: none;
+  }
+}
+/* line 1, /css/shiny/_shiny.less */
+body {
+  background-color: #ffffff;
+}
+</style>
+<script type="text/javascript">
+	less = {
+		env: "development",
+		dumpLineNumbers: "comments",
+		strictMath: false
+	};
+</script>
+<script src="include/less-1.js" type="text/javascript"></script>
+<!-- else -->
+<!-- <link href='css/style.css' type='text/css' rel="stylesheet"/> -->
+<!-- endif -->
+
+
+<script src="include/jquery-2.js"></script>
+<script src="include/highcharts.js"></script>
+<script src="include/bootstrap.js"></script>
+
+<script src="include/jquery-ui.js"></script>
+
+<script src="include/fda-scripts.js"></script>
+<script src="include/isotope.js"></script>
+<script src="include/modernizr-1.js"></script>
+
+</head>
+<body><header class="fdahead">
+	<div class="wrapper header">
+		<div class="content header">
+			<button class="fdahead-nav-toggle"><span>show navigation</span></button>
+			<span class="fdahead-logo"><a href="/"><img title="Official FDA Logo" alt="" src="include/fda-logo.png" height="38" width="92"> <span>Drug Monitor</span></a></span>
+			<div class="fdahead-search">
+				<form class="" action="" method="get" name="main_search" id="mainsearch">
+					<select class="" id="select-category">
+						<option selected="selected">Select a search category</option>
+				f		<option value="search_labels">Drug Names</option>
+						<option value="search_events">Adverse Events</option>
+						<option value="search_enforcements">Enforcement Reports</option>
+						<option value="search_manufacturers">Manufacturers</option>
+					</select><!--
+					--><input class="" name="q" id="search-term" placeholder="Enter keyword" type="search"><!--
+					--><button class="" type="submit" id="search-category"><span>GO</span><i></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper header header-nav">
+		<div class="content header header-nav">
+			<nav class="fdahead-nav">
+				<ul class="">
+					<li class="one"><a href="/browse/labels/">Drug Names</a> </li>
+					<li class="two"><a href="/browse/events/">Adverse Events</a> </li>
+					<li class="three"><a href="/browse/enforcements/">Enforcement Reports</a> </li>
+					<li class="four"><a href="/browse/manufacturers/">Drug Manufacturers</a> </li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>	
+		
+		
+		<!--button class="fdahead-search-toggle"><span>show search</span></button-->
+		
+	
+	
+
+
+<!--nav class="fdahead-nav">
+        <div class="container" style="max-width:1024px;">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> </button>
+                
+            </div>
+            <div id="bs-example-navbar-collapse-9" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li> <a href="/browse/labels/">Drug Names</a> </li>
+                    <li> <a href="/browse/events/">Adverse Events</a> </li>
+                    <li> <a href="/browse/enforcements/">Enforcement Reports</a> </li>
+                    <li> <a href="/browse/manufacturers/">Drug Manufacturers</a> </li>
+                </ul>
+            </div>
+        </div>
+    </nav--><main>
 	<div class="wrapper page-header fda-drug-names">
 		<div class="content">
 			<h1>Drug Details: Information for Gabapentin</h1>
@@ -9,15 +4232,578 @@
 	</div>
 	<div class="wrapper body">
 		<div class="content">
-			<?php readfile("include/drug_detail.html");?>
-			
+			<div id="fda-tabs-interface" class="fda-tabs-interface ui-tabs ui-widget ui-widget-content ui-corner-all">
+	<ul role="tablist" class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all">
+		<li aria-expanded="true" aria-selected="true" aria-labelledby="ui-id-1" aria-controls="tabs-1" tabindex="0" role="tab" class="ui-state-default ui-corner-top ui-tabs-active ui-state-active"><a id="ui-id-1" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tabs-1">Labels</a></li>
+		<li aria-expanded="false" aria-selected="false" aria-labelledby="ui-id-2" aria-controls="tabs-2" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-2" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tabs-2">Adverse Events</a></li>
+		<li aria-expanded="false" aria-selected="false" aria-labelledby="ui-id-3" aria-controls="tabs-3" tabindex="-1" role="tab" class="ui-state-default ui-corner-top"><a id="ui-id-3" tabindex="-1" role="presentation" class="ui-tabs-anchor" href="#tabs-3">Enforcement Reports</a></li>
+	</ul>
+	<div aria-hidden="false" role="tablist" aria-labelledby="ui-id-1" id="tabs-1" class="fda-accordion-interface ui-tabs-panel ui-widget-content ui-corner-bottom ui-accordion ui-widget ui-helper-reset">
+		<!--h3><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div>
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div-->
+		<h3 tabindex="0" aria-expanded="true" aria-selected="true" aria-controls="ui-id-5" id="ui-id-4" role="tab" class="ui-accordion-header ui-state-default ui-accordion-header-active ui-state-active ui-corner-top ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-s"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="false" role="tabpanel" aria-labelledby="ui-id-4" id="ui-id-5" style="display: block;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom ui-accordion-content-active">
+			<table class="fda-table-default">
+		        <!--caption class="sr-only">Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</caption-->
+		        <tbody>
+		            
+		                <tr>
+		                    <th scope="row">Warnings</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                WARNINGS
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Pharmacokinetics</th>
+		                    <td class="cell">
+		                                Pharmacokinetics Absorption and 
+Bioavailability Following a single oral dose of metformin hydrochloride 
+extended release tablets USP, Cmax is achieved with a median value of 7 
+hours and a range of 4 hours to 8 hours. Peak plasma levels are 
+approximately 
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Dosage and administration</th>
+		                    <td class="cell">
+		                                DOSAGE AND ADMINISTRATION There is no 
+fixed dosage regimen for the management of hyperglycemia in patients 
+with type 2 diabetes with metformin hydrochloride extended release 
+tablets USP or any other pharmacologic agent. Dosage of metformin 
+hydrochloride extended release tablets USP...
+		                        <span class="more">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Active ingredient</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                                
+		                                N/A
+		                                
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Route</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                ORAL
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Adverse reactions</th>
+		                    <td class="cell">
+		                          
+		                            
+		                                
+		                                ADVERSE REACTIONS In worldwide 
+clinical trials over 900 patients with type 2 diabetes have been treated
+ with metformin hydrochloride extended release table...
+		                        <span class="more">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Do not use</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                                
+		                                N/A
+		                                
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Pharm class epc</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                Biguanide [EPC]
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Drug interactions</th>
+		                    <td class="cell">
+		                        Drug Interactions (Clinical Evaluation of Drug
+ Interactions Conducted with Metformin Hydrochloride Tablets) Glyburide -
+ In a single-dose interaction study in type 2 diabetes patients, 
+coadministration of metformin and glyburide did not result in any 
+changes in either metformin pharmacokinetics or pharmacodynamics.
+		                        <span class="more">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Generic name</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                METFORMIN HYDROCHLORIDE
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Id</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                                
+		                                7ac4b965-1cfa-4d0d-bcac-51ad644ce616
+		                                
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Description</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                                
+		                                N/A
+		                                
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Brand name</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                Metformin hydrochloride
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Inactive ingredient</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                                
+		                                N/A
+		                                
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Manufacturer name</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                <a href="/search/manufacturers/?q=%22Inventia%20Healthcare%20Private%20Limited%22">Inventia Healthcare Private Limited</a>
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		                <tr>
+		                    <th scope="row">Pharm class cs</th>
+		                    <td class="cell">
+		                        <div class="">
+		                          
+		                            
+		                                
+		                                Biguanides [Chemical/Ingredient]
+		                                
+		                            
+		                          
+		                        </div>
+		                        <span class="more" style="display: none;">More...</span>
+		                        <span class="less" style="display:none;">Less...</span>
+		                    </td>
+		                </tr>
+		            
+		        </tbody>
+		    </table>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-7" id="ui-id-6" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-6" id="ui-id-7" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<table class="fda-table-default">
+             <caption>Reporting Sources</caption>
+             <tbody>
+               
+               <tr>
+                 <th scope="row">Duplicate report source</th>
+                 <td>
+                       N/A
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Seriousness</th>
+                 <td>
+                       N/A
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Safety report version</th>
+                 <td>
+                       1
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Duplicate report number</th>
+                 <td>
+                       N/A
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Safety report</th>
+                 <td>
+                       10003315
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Receipt date format</th>
+                 <td>
+                       102
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Seriousness details</th>
+                 <td>
+                       
+                         congenital anomali: None<br>
+                       
+                         death: 1<br>
+                       
+                         disabling: None<br>
+                       
+                         hospitalization: None<br>
+                       
+                         life threatening: None<br>
+                       
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Receive date</th>
+                 <td>
+                       20140312
+                     
+                 </td>
+               </tr>
+               
+             </tbody>
+        </table>
+        <table class="fda-table-default">
+            <caption>
+             Patient Data
+            </caption>
+            <tbody>
+               
+               <tr>
+                 <th scope="row">Patient onset age</th>
+                 <td>
+                       N/A
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Patient sex</th>
+                 <td>
+                       N/A
+                     
+                 </td>
+               </tr>
+               
+               <tr>
+                 <th scope="row">Patient death details</th>
+                 <td>
+                       N/A
+                     
+                 </td>
+               </tr>
+               
+            </tbody>
+        </table>
+        <table class="fda-table-default">
+        <caption>
+         Drug Data
+        </caption>
+        <tbody>
+           
+           <tr>
+             <th scope="row">Reported role of the drug in the adverse event</th>
+             <td>
+                   N/A
+                 
+             </td>
+           </tr>
+           
+           <tr>
+             <th scope="row">Drug administration route</th>
+             <td>
+                   N/A
+                 
+             </td>
+           </tr>
+           
+           <tr>
+             <th scope="row">Dosage</th>
+             <td>
+                   N/A
+                 
+             </td>
+           </tr>
+           
+           <tr>
+             <th scope="row">Actions taken with drug</th>
+             <td>
+                   N/A
+                 
+             </td>
+           </tr>
+           
+           <tr>
+             <th scope="row">Number of doses</th>
+             <td>
+                   N/A
+                 
+             </td>
+           </tr>
+           
+        </tbody>
+    </table>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-9" id="ui-id-8" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-8" id="ui-id-9" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-11" id="ui-id-10" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-10" id="ui-id-11" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-13" id="ui-id-12" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-12" id="ui-id-13" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-15" id="ui-id-14" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-14" id="ui-id-15" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-17" id="ui-id-16" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-16" id="ui-id-17" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-19" id="ui-id-18" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-18" id="ui-id-19" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-21" id="ui-id-20" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-20" id="ui-id-21" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-23" id="ui-id-22" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-22" id="ui-id-23" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+		<h3 tabindex="-1" aria-expanded="false" aria-selected="false" aria-controls="ui-id-25" id="ui-id-24" role="tab" class="ui-accordion-header ui-state-default ui-corner-all ui-accordion-icons"><span class="ui-accordion-header-icon ui-icon ui-icon-triangle-1-e"></span><i></i>Metformin hydrochloride: 7ac4b965-1cfa-4d0d-bcac-51ad644ce616</h3>
+		<div aria-hidden="true" role="tabpanel" aria-labelledby="ui-id-24" id="ui-id-25" style="display: none;" class="ui-accordion-content ui-helper-reset ui-widget-content ui-corner-bottom">
+			<p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, 
+risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam 
+elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris 
+dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed 
+magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor
+ vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris 
+vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. 
+Phasellus ipsum. Nunc tristique tempus lectus.</p>
+		</div>
+	</div>
+	<div aria-hidden="true" style="display: none;" role="tabpanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-2" id="tabs-2">
+		<p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida
+ ante, ut pharetra massa metus id nunc. Duis scelerisque molestie 
+turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie 
+lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. 
+Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros 
+vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare 
+consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat
+ volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque
+ pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel 
+felis. Mauris consectetur tortor et purus.</p>
+	</div>
+	<div aria-hidden="true" style="display: none;" role="tabpanel" class="ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-3" id="tabs-3">
+		<p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. 
+Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu 
+congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti 
+sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
+Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent 
+eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium 
+nec, feugiat nec, luctus a, lacus.</p>
+		<p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper
+ at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo 
+vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. 
+Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id 
+euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed 
+nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor,
+ tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum
+ rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. 
+Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+	</div>
+</div>			
 		</div><!-- end content -->
 	</div><!-- end wrapper -->
 </main>
 <div class="wrapper footer">
 	<div class="content">
-		<?php readfile("include/_footer.html");?>
-	</div>
+			<footer class="fdafoot">
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+		<p>Copyright Information/Licensing Information</p>
+	</footer><!-- end header -->	</div>
 </div>
-</body>
-</html>
+
+
+</body></html>
