@@ -4,7 +4,7 @@ Artemis Consulting kicked off our agile project named "FDA Drug Monitor" by asse
 
 Next, we created a concise vision statement to ensure that the solution meets the intended product owner’s and users’ goals. This shared Vision Statement also helped to keep our team focused: "To deliver a fast, responsive and intuitive API-driven website using the Drug Labels API, Adverse Events API and Enforcement Actions API that integrates information  for the public and other potential users in a holistic fashion, within the next 6 days".
 
-To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-overview)
+To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-overview).
 
 Team and Stakeholders
 =====================
@@ -24,9 +24,9 @@ His responsibilities include:
 * Ensuring that key features are built
 * Managing the features and defect backlogs on a daily basis
 * Setting priorities and providing the definition of "done" 
-[Pool 1, requirement A, B and Play 6 ]
+[Pool 1, requirement A, B and Play 6]
 
-The team members assembled for this project are experts in their respective disciplines. [Pool 1, requirement A and Play 7 ]
+The team members assembled for this project are experts in their respective disciplines. [Pool 1, requirement A and Play 7]
 
 During the story planning meetings, the following prospective users where identified:
 * Public users
@@ -47,7 +47,7 @@ We follow an integrated ‘User-Centered Design’ process where we strongly enc
 * expert reviews 
 * clickable prototypes.
 
-To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ucd)
+To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ucd).
 
 Click on the links to see the [final user personas](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-personas-final-6-23-2015.pdf) and [final user journeys](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-user-journeys-final-6-23-2015.pdf).
 
@@ -75,8 +75,8 @@ Our team conducted a fairly formal accessibility review with the initial web pro
 
 Usability Testing
 -----------------
-Agile usability testing was integrated into the design and prototyping process so that the team could identify and fix user experience problems before they become baked in and expensive to address.  To view the results the usability testing conducted on 06/24/14, click [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ucd)
-To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ux-testing)
+Agile usability testing was integrated into the design and prototyping process so that the team could identify and fix user experience problems before they become baked in and expensive to address.  To view the results the usability testing conducted on 06/24/14, click [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ucd).
+To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ux-testing).
 
 Agile Delivery Approach
 =======================
