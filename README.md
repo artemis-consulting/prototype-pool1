@@ -88,12 +88,18 @@ Results of usability testing can be viewed [here](https://github.com/artemis-con
 Technologies used:
 =================
 
-* Less/CSS
-* JavaScript/jQuery 
+* Less/CSS (open source)
+* JavaScript/jQuery  (open source)
 * Photoshop
-* Bootstrap/Bootswatch Paper theme 
-* Highcharts chart and mapping widgets 
+* Bootstrap/Bootswatch Paper theme (open source)  
+* Highcharts chart and mapping widgets  (open source)
 * (Proprietary) accessibility toolkit
+
+Methodologies used:
+===================
+* User persona development
+* User journeys
+* Unmoderated testing
 
 Prerequisites and Installation for Design Environment 
 =====================================================
