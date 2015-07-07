@@ -47,7 +47,7 @@ We follow an integrated ‘User-Centered Design’ process where we strongly enc
 * expert reviews 
 * clickable prototypes.
 
-To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-UCD)
+To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ucd)
 
 Click on the links to see the [final user personas](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-personas-final-6-23-2015.pdf) and [final user journeys](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-user-journeys-final-6-23-2015.pdf).
 
@@ -55,14 +55,14 @@ The team strongly felt that applying the UCD techniques in the sections previous
 
 Usability Testing
 -----------------
-Agile usability testing was integrated into the design and prototyping process so that the team could identify and fix user experience problems before they become baked in and expensive to address.  To view the results the usability testing conducted on 06/24/14, click [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-UCD)
-To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-UX-testing)
+Agile usability testing was integrated into the design and prototyping process so that the team could identify and fix user experience problems before they become baked in and expensive to address.  To view the results the usability testing conducted on 06/24/14, click [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ucd)
+To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-ux-testing)
 
 Agile Delivery Approach
 =======================
 For the FDA prototype, we decided on 2-day sprints but chose to add a 4-day sprint to accommodate the unusual nature of this project and weekend work after the project deadline was extended.
 
-To view our entire agile section and artifacts related to Play 4, click [here]https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-Agile).
+To view our entire agile section and artifacts related to Play 4, click [here]https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-agile).
 Results of usability testing can be viewed here For automated testing, we used Selenium. The scripts for these tests are checked in here.
 
 Technologies used:
