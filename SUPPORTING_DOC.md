@@ -1,5 +1,9 @@
 Supporting Document for Artemis Consulting's Pool 1
 ===================================================
+Section-Overview-pool1
+----------------------
+The team determined that instead of using a single API from OpenFDA, what would really serve the public is a website that consumes all the APIs that OpenFDA offers in one target area. Since the APIs are divided into "Drugs", "Devices" and "Food" with "Drugs" having the most APIs, we decided to build a website that consumed all 3 Drugs-related APIs, and offer the users of the site a chance to see the interconnections betwen drug labels, drug adverse reactions and drug recalls. The interconnection would be from each API's dataset to the other API's dataset using targeted queries. In the end based on user testing with our doctor and lawyer subject matter experts(SMEs), we also decided to add a completely new Drug Manufacturers section on the site, which further interconnected the 3 API datasets together but using derived data from each dataset.
+The team also decided to support two navigation paradigms for the 4 data sets, Browse and Search. Users could look at a list of what's available for each dataset, or could search for an item of interest in each dataset. Once the user found an item, the user would still be able to navigate to the other connected data from each item.
 
 Section-pool1-UCD
 -----------------
@@ -65,7 +69,6 @@ Here is an overview of the results from Agile UX testing conducted on 06/12/15.
   For more information regarding your health visit www.fda.gov/
   This application was designed and build by Artemis Consulting, Inc. For more information visit www.artemisconsultinginc.com
 
-
 Section-pool1-Agile
 -------------------
 
@@ -74,6 +77,7 @@ Artemis Consulting uses agile scrum techniques for all their internal developmen
 * We used the open source Taiga tool for agile project management and defect tracking. Taiga tends to be more ‘lightweight’ for project with relative quick turnarounds and firm deadlines. Additional information on Taiga can be found [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/agile-process/agile-tool-taiga)
 * All our agile artifacts related to Play 4, can be found here -> [Sprints](https://github.com/artemis-consulting/prototype-pool1/tree/master/agile-process). 
 * Our team did fairly extensive user testing with doctors and lawyers. Here are the links to the [User Interview Questions](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/4-user-interviews/User%20Interview%20Questions.pdf), the [user testing feedback and our team's remediation comments from a practising pharmaceutical industry lawyer](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/4-user-interviews/User%20Interview%20Questions-Response1-Pharmaceutical-Company-Lawyer.pdf)  and the [user testing feedback and our team's remediation comments from a practising doctor](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/4-user-interviews/User%20Interview%20Questions-Response2-and-Remediation-Doctor-MD.pdf).
+
 
 Running Locally
 --------------

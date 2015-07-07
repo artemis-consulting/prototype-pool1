@@ -4,7 +4,7 @@ Artemis Consulting kicked off our agile project named "FDA Drug Monitor" by asse
 
 Next, we created a concise vision statement to ensure that the solution meets the intended product owner’s and users’ goals. This shared Vision Statement also helped to keep our team focused: "To deliver a fast, responsive and intuitive API-driven website using the Drug Labels API, Adverse Events API and Enforcement Actions API that integrates information  for the public and other potential users in a holistic fashion, within the next 6 days".
 
-To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md)
+To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-overview-pool1)
 
 Team and Stakeholders
 =====================
@@ -52,6 +52,26 @@ To read the full UCD approach, techniques, and results, go to [the supporting do
 Click on the links to see the [final user personas](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-personas-final-6-23-2015.pdf) and [final user journeys](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-user-journeys-final-6-23-2015.pdf).
 
 The team strongly felt that applying the UCD techniques in the sections previously mentioned satisfy Play [1] and [2].
+
+Wireframes
+----------
+Our team created an initial set of wireframes based on brainstorming with the product owner.  These can be seen [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/user-centered-design/3-user-interface/wireframes)
+
+Comps
+-----
+Our team created an initial set of wireframes based on brainstorming with the product owner.  These can be seen [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/user-centered-design/3-user-interface/wireframes)
+
+Mobile-first Responsive Design
+------------------------------
+Our HTML experts created multiple functioning web prototypes throughout the course of the design phase. These were used for Accessibility testing and usability testing. 
+The prototypes with accompanying HTML markup are available at:
+* [Initial responsive web prototype using Bootstrap](https://github.com/artemis-consulting/prototype-pool1/tree/master/html/1-initial-bootstrap-version)
+* [Second responsive and accessible web prototype](https://github.com/artemis-consulting/prototype-pool1/tree/master/html/2-intermediate-version)
+* [Final responsive and accessible web prototype](https://github.com/artemis-consulting/prototype-pool1/tree/master/html/3-final-version)
+
+Formal Accessibility Review
+---------------------------
+Our team conducted a fairly formal accessibility review with the initial web prototype. The results of this review are [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/3-user-interface/accessibility/FDA%20Drug%20Monitor%20Formal%20Accessibility%20Review.pdf).
 
 Usability Testing
 -----------------
