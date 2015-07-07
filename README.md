@@ -55,11 +55,11 @@ The team strongly felt that applying the UCD techniques in the sections previous
 
 Wireframes
 ----------
-Our team created an initial set of wireframes based on brainstorming with the product owner.  These can be seen [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/user-centered-design/3-user-interface/wireframes)
+Our team created an initial set of wireframes based on brainstorming with the product owner.  These can be seen [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/3-user-interface/wireframes/18f-wireframes-draft1.pdf).
 
-Comps
------
-Our team created an initial set of wireframes based on brainstorming with the product owner.  These can be seen [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/user-centered-design/3-user-interface/wireframes)
+Design Comps
+------------
+Our team created an initial set of design comps based on brainstorming with the product owner.  These can be seen [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/user-centered-design/3-user-interface/design-comps).
 
 Mobile-first Responsive Design
 ------------------------------
