@@ -1,6 +1,6 @@
-Supporting Document for Artemis Consulting's Pool 1
-===================================================
-Section-Overview-pool1
+Supporting Document for Artemis Consulting's Pool 1 Submission
+==============================================================
+Section-pool1-Overview
 ----------------------
 The team determined that instead of using a single API from OpenFDA, what would really serve the public is a website that consumes all the APIs that OpenFDA offers in one target area. Since the APIs are divided into "Drugs", "Devices" and "Food" with "Drugs" having the most APIs, we decided to build a website that consumed all 3 Drugs-related APIs, and offer the users of the site a chance to see the interconnections betwen drug labels, drug adverse reactions and drug recalls. The interconnection would be from each API's dataset to the other API's dataset using targeted queries. In the end based on user testing with our doctor and lawyer subject matter experts(SMEs), we also decided to add a completely new Drug Manufacturers section on the site, which further interconnected the 3 API datasets together but using derived data from each dataset.
 The team also decided to support two navigation paradigms for the 4 data sets: Browse and Search. Users could look at a list of what's available for each data set, or could search for an item of interest in each data set. Once the user found an item, the user would still be able to navigate to the other connected data from each item.

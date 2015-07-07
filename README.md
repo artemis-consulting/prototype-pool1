@@ -4,7 +4,7 @@ Artemis Consulting kicked off our agile project named "FDA Drug Monitor" by asse
 
 Next, we created a concise vision statement to ensure that the solution meets the intended product owner’s and users’ goals. This shared Vision Statement also helped to keep our team focused: "To deliver a fast, responsive and intuitive API-driven website using the Drug Labels API, Adverse Events API and Enforcement Actions API that integrates information  for the public and other potential users in a holistic fashion, within the next 6 days".
 
-To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-overview-pool1)
+To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-overview)
 
 Team and Stakeholders
 =====================
