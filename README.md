@@ -83,7 +83,7 @@ Agile Delivery Approach
 For the FDA prototype, we decided on 2-day sprints but chose to add a 4-day sprint to accommodate the unusual nature of this project and weekend work after the project deadline was extended.
 
 To view our entire agile section and artifacts related to Play 4, click [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#section-pool1-agile).
-Results of usability testing can be viewed here For automated testing, we used Selenium. The scripts for these tests are checked in here.
+Results of usability testing can be viewed [here](https://github.com/artemis-consulting/prototype-pool1/tree/master/user-centered-design/4-user-interviews).
 
 Technologies used:
 =================
