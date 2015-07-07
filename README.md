@@ -4,7 +4,7 @@ Artemis Consulting kicked off our agile project named "FDA Drug Monitor" by asse
 
 Next, we created a concise vision statement to ensure that the solution meets the intended product owner’s and users’ goals. This shared Vision Statement also helped to keep our team focused: "To deliver a fast, responsive and intuitive API-driven website using the Drug Labels API, Adverse Events API and Enforcement Actions API that integrates information  for the public and other potential users in a holistic fashion, within the next 6 days".
 
-To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/SUPPORTING_DOC.md)
+To read more about the Project Scope and Key Features, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md)
 
 Team and Stakeholders
 =====================
@@ -47,7 +47,7 @@ We follow an integrated ‘User-Centered Design’ process where we strongly enc
 * expert reviews 
 * clickable prototypes.
 
-To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/SUPPORTING_DOC.md#Section-pool1-UCD)
+To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-UCD)
 
 Click on the links to see the [final user personas](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-personas-final-6-23-2015.pdf) and [final user journeys](https://github.com/artemis-consulting/prototype-pool1/blob/master/user-centered-design/2-user-personas-and-journeys/18f-user-journeys-final-6-23-2015.pdf).
 
@@ -55,14 +55,14 @@ The team strongly felt that applying the UCD techniques in the sections previous
 
 Usability Testing
 -----------------
-Agile usability testing was integrated into the design and prototyping process so that the team could identify and fix user experience problems before they become baked in and expensive to address.  To view the results the usability testing conducted on 06/24/14, click [here](https://github.com/artemis-consulting/prototype-pool1/SUPPORTING_DOC.md#Section-pool1-UCD)
-To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/SUPPORTING_DOC.md#Section-pool1-UX-testing)
+Agile usability testing was integrated into the design and prototyping process so that the team could identify and fix user experience problems before they become baked in and expensive to address.  To view the results the usability testing conducted on 06/24/14, click [here](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-UCD)
+To read the full UCD approach, techniques, and results, go to [the supporting document](https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-UX-testing)
 
 Agile Delivery Approach
 =======================
 For the FDA prototype, we decided on 2-day sprints but chose to add a 4-day sprint to accommodate the unusual nature of this project and weekend work after the project deadline was extended.
 
-To view our entire agile section and artifacts related to Play 4, click [here]https://github.com/artemis-consulting/prototype-pool1/SUPPORTING_DOC.md#Section-pool1-Agile).
+To view our entire agile section and artifacts related to Play 4, click [here]https://github.com/artemis-consulting/prototype-pool1/blob/master/SUPPORTING_DOC.md#Section-pool1-Agile).
 Results of usability testing can be viewed here For automated testing, we used Selenium. The scripts for these tests are checked in here.
 
 Technologies used:
