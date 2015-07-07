@@ -82,5 +82,5 @@ Artemis Consulting uses agile scrum techniques for all their internal developmen
 Running Locally
 --------------
 * Clone this repository
-  $ git clone https://github.com/artemis-consulting/prototype-pool1
-* View the files using a browser
+   $ git clone https://github.com/artemis-consulting/prototype-pool1
+* View the files under the html folder using a modern web browser
