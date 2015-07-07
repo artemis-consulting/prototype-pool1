@@ -1,39 +1,4 @@
-/*
 
-#Table
- 
-##No style
-
-```
-<table summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 
 table {
 	background-color: transparent;
@@ -62,158 +27,26 @@ table {
     };
   };
 };
-/*
- 
-##.table-bordered
 
-```
-<table class="table-bordered" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .table-bordered { 
   th, td {
     border: @table_bordered;
   };
 };
-/*
- 
-##.table-bordered-top
 
-```
-<table class="table-bordered-top" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .table-bordered-top {
   border-bottom: @table_bordered;
   th, td {
     border-top: @table_bordered;
   };
 };
-/*
- 
-##.table-bordered + .table-padded
 
-```
-<table class="table-bordered table-padded" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .table-padded {
   th, td {
     padding: @table_padded;
   };
 };
-/*
- 
-##.table-bordered + .table-padded + .table-full-width = .default
 
-```
-<table class="default" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .table-full-width {
   width:100%;
 };
@@ -222,41 +55,7 @@ table {
   .table-padded;
   .table-full-width;
 };
-/*
- 
-##.table-bordered + .table-padded + .table-full-width + .table-striped = .default-striped
-Not supported in IE8.
 
-```
-<table class="default-striped" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .table-striped {
   tbody { 
     tr:nth-child(even) {
@@ -268,36 +67,7 @@ Not supported in IE8.
   .default;
   .table-striped;
 };
-/*
- 
-##.nowrap-headers
-Forces the content inside `thead > th` should not wrap
 
-```
-<table class="default nowrap-headers" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .nowrap-headers {
   thead {
     th {
@@ -305,41 +75,7 @@ Forces the content inside `thead > th` should not wrap
     };
   };
 };
-/*
- 
-##Sortable table
-Not supported in IE8.
 
-```
-<table class="default sortable-table" summary="summary of table info">
-  <thead>
-    <tr>
-      <th scope="col">Table Header 1</th>
-      <th scope="col">Table Header 2</th>
-      <th scope="col">Table Header 3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-    <tr>
-      <td>Division 1</td>
-      <td>Division 2</td>
-      <td>Division 3</td>
-    </tr>
-  </tbody>
-</table>
-```
-
-*/
 .sortable-table {
   .table-bordered-top;
   .table-padded;

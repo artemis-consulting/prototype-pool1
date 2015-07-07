@@ -1,16 +1,4 @@
-/*
 
-#Typography
- 
-##Base
-
-Refer to _config.less for body font style.
-
-```
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices, risus facilisis vestibulum viverra, lectus leo pharetra tortor, sed congue nisl libero ut turpis. Integer consequat, purus non pharetra suscipit, metus lorem egestas urna, eu mattis est augue a justo. Vestibulum eget justo rhoncus, commodo magna id, egestas purus. In porta erat erat, nec dapibus neque vestibulum ullamcorper. Pellentesque dapibus, nibh eget aliquet maximus, magna mauris lacinia lorem, vel consectetur orci ipsum vel tellus. Vestibulum sodales bibendum ornare. Phasellus odio velit, malesuada non sollicitudin vitae, fringilla vel justo.</p>
-```
-
-*/
 body { 
   font-family: @body_font_family;
   font-size: @base_font_size;
@@ -29,17 +17,7 @@ body {
   text-shadow: none; 
 };
 
-/*
- 
-##Links
 
-```
-<a href="">Default Link</a>
-<a href="" class="white">Link white text</a>
-<a href="" class="gray">Link gray text</a>
-```
-
-*/
 
 a { 
   &:link {
@@ -89,22 +67,6 @@ a {
   };
 };
 
-
-/*
- 
-##Message options
-
-```
-<h2 class="mute"><code>mute</code> is used to suppress headings or other html elements to base font style</h2>
-<p class="text-warning"><code>text-warning</code> indicates caution should be taken with this action</p>
-<p class="text-alert"><code>text-alert</code> is for informational alert messages, Loc.gov homepage for example</p>
-<p class="text-error"><code>text-error</code> indicates error or potentially negative action</p>
-<p class="text-info"><code>text-info</code> is for informational alert messages</p>
-<p class="text-success"><code>text-success</code> indicates a successful or positive action</p>
-<p class="back-to-top"><code>back-to-top</code> is no longer used on Loc.gov, is replaced with persistent back to top link</p>
-```
-
-*/
 .mute {
   font-size: @base_font_size;
   line-height: @base_line_height;
@@ -134,20 +96,6 @@ a {
   text-align:right;
 };
 
-/*
- 
-##Headings
-
-```
-<h1>h1 heading</h1>
-<h2>h2 heading</h2>
-<h3>h3 heading</h3>
-<h4>h4 heading</h4>
-<h5>h5 heading</h5>
-<h6>h6 heading</h6>
-```
-
-*/
 
 h1 {font-family: @h1_font_family; color:@h1_font_color;};
 h2 {font-family: @h2_font_family; color:@h2_font_color;};
@@ -156,20 +104,7 @@ h4 {font-family: @h4_font_family; color:@h4_font_color;};
 h5 {font-family: @h5_font_family; color:@h5_font_color;};
 h6 {font-family: @h6_font_family; color:@h6_font_color;};
 
-/*
- 
-##Headings - Alternative style
 
-```
-<h1 class="alt">h1 heading</h1>
-<h2 class="alt">h2 heading</h2>
-<h3 class="alt">h3 heading</h3>
-<h4 class="alt">h4 heading</h4>
-<h5 class="alt">h5 heading</h5>
-<h6 class="alt">h6 heading</h6>
-```
-
-*/
 h1.alt {font-family: @h1_alt_font_family; color:@h1_alt_font_color;};
 h2.alt {font-family: @h2_alt_font_family; color:@h2_alt_font_color;};
 h3.alt {font-family: @h3_alt_font_family; color:@h3_alt_font_color;};
@@ -186,20 +121,7 @@ h6 {
   line-height: @base_line_height;
   margin: 0 0 @margin_bottom_single;
 };
-/*
- 
-##small in headings
 
-```
-<h1>h1 heading <small>iamsmall</small></h1>
-<h1>h1 heading <small class="block">iamsmall</small></h1>
-<h2>h2 heading <small>iamsmall</small></h2>
-<h2>h2 heading <small class="block">iamsmall</small></h2>
-<h3>h3 heading <small>iamsmall</small></h3>
-<h3>h3 heading <small class="block">iamsmall</small></h3>
-```
-
-*/
 .small-in-heading {
   font-weight: normal;
   line-height: 1;
@@ -269,20 +191,7 @@ h6,
   line-height: @base_line_height * .75;
   font-weight: normal;
 };
-/*
- 
-##small in headings
 
-```
-<h1>h1 heading <small>iamsmall</small></h1>
-<h1>h1 heading <small class="block">iamsmall</small></h1>
-<h2>h2 heading <small>iamsmall</small></h2>
-<h2>h2 heading <small class="block">iamsmall</small></h2>
-<h3>h3 heading <small>iamsmall</small></h3>
-<h3>h3 heading <small class="block">iamsmall</small></h3>
-```
-
-*/
 .bordered-bottom {
   border-bottom: 1px solid @gray;
   padding-bottom: 5px;
